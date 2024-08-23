@@ -56,7 +56,7 @@ header_pages:
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
 
-minima:
+varatoz:
     # Minima skin selection.
     # Available skins are:
     # classic	             Default, light color scheme.
@@ -73,7 +73,7 @@ minima:
         dribbble_username: NoVarYe
         # facebook_username: jekyll
         github_username: NoVarYe
-        gitlab_username: NoVarYe
+        # gitlab_username: NoVarYe
         # google_scholar_username: qc6CJjYAAAAJ
         pinterest_username: Novarye G
         stackoverflow_user_id: 23326673
@@ -87,7 +87,7 @@ minima:
         # - { platform: facebook, user_url: "https://www.facebook.com/jekyll" }
         #     - { platform: flickr, user_url: "https://www.flickr.com/photos/jekyll" }
         - { platform: github, user_url: "https://github.com/No4Var2Ye" }
-        - { platform: gitlab, user_url: "https://gitlab.com/No4Var2Ye" }
+        # - { platform: gitlab, user_url: "https://gitlab.com/No4Var2Ye" }
         # - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
         #     - { platform: instagram, user_url: "https://www.instagram.com/jekyll" }
         #     - { platform: keybase, user_url: "https://keybase.io/jekyll" }
@@ -97,5 +97,5 @@ minima:
         - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/23326673/novarye" }
         #     - { platform: telegram, user_url: "https://t.me/jekyll" }
         - { platform: twitter, user_url: "https://twitter.com/NovaryeG" }
-        - { platform: x, user_url: "https://x.com/NovaryeG" }
+        # - { platform: x, user_url: "https://x.com/NovaryeG" }
         # - { platform: youtube, user_url: "https://www.youtube.com/jekyll" }

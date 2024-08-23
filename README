@@ -19,10 +19,19 @@ bundle exec jekyll serve
 The theme is available as open source under the terms of the MIT License.
 
 > [!NOTE]
+> note
+>
+note
 
 > [!TIP]
+> tip
+>
+tip
 
 > [!WARNING]
+>
+warning
 
 > [!CAUTION]
-
+>
+caution

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    {% for post in site.posts limit:7 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ post.url | absolute_url }}</link>
+      <description>{{ post.excerpt | strip_html | escape }}</description>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <guid>{{ post.url | absolute_url }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
