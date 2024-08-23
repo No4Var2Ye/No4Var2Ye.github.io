@@ -1,3 +1,101 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: NoWisdomS
+author:
+    name: NoVarYe
+    email: jidijam.olk@outlook.com
+
+lang: en
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >-
+    Write an awesome description for your new site here. You can edit this
+    line in _config.yml. It will appear in your document head meta (for
+    Google search results) and in your feed.xml site description.
+
+# Site settings
+domain: No4Var2Ye.github.io
+url: https://No4Var2Ye.github.io
+baseurl: ""
+
+# Build settings
+theme: minima
+# theme: VarAtoZ
+# remote_theme: No4Var2Ye/VarAtoZ
+
+plugins:
+    - jekyll-feed
+    - jekyll-remote-theme
+    - jekyll-seo-tag
+
+# GitHub Pages settings
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
+kramdown:
+    math_engine: mathjax
+    syntax_highlighter: rouge
+
+# Markdown settings
+markdown: kramdown
+
+# Post settings
+excerpt_separator: "<!--more-->"
+
+# Theme-specific settings
+
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+    - blog.md
+    - contact.md
+    - about.md
+
+# Set to `true` to show excerpts on the homepage.
+#show_excerpts: false
+
+minima:
+    # Minima skin selection.
+    # Available skins are:
+    # classic	             Default, light color scheme.
+    # dark	             Dark variant of the classic skin.
+    skin: classic
+
+    # VarAtoZ date format.
+    # The default value is "%b %d, %Y" (e.g. Nov 14, 2023)
+    # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+    date_format: "%b %d, %Y"
+
+    # Social media
+    social_accounts:
+        dribbble_username: NoVarYe
+        # facebook_username: jekyll
+        github_username: NoVarYe
+        gitlab_username: NoVarYe
+        # google_scholar_username: qc6CJjYAAAAJ
+        pinterest_username: Novarye G
+        stackoverflow_user_id: 23326673
+        twitter_username: _NoMem
+        # youtube_username: jekyll
+
+    # Generate social links in footer.
+    social_links:
+        #     - { platform: devto, user_url: "https://dev.to/jekyll" }
+        - { platform: dribbble, user_url: "https://dribbble.com/NoVarYe" }
+        # - { platform: facebook, user_url: "https://www.facebook.com/jekyll" }
+        #     - { platform: flickr, user_url: "https://www.flickr.com/photos/jekyll" }
+        - { platform: github, user_url: "https://github.com/No4Var2Ye" }
+        - { platform: gitlab, user_url: "https://gitlab.com/No4Var2Ye" }
+        # - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+        #     - { platform: instagram, user_url: "https://www.instagram.com/jekyll" }
+        #     - { platform: keybase, user_url: "https://keybase.io/jekyll" }
+        #     - { platform: linkedin, user_url: "https://www.linkedin.com/in/jekyll" }
+        #     - { platform: microdotblog, user_url: "https://micro.blog/jekyll" }
+        - { platform: pinterest, user_url: "https://www.pinterest.com/novaryeg" }
+        - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/23326673/novarye" }
+        #     - { platform: telegram, user_url: "https://t.me/jekyll" }
+        - { platform: twitter, user_url: "https://twitter.com/NovaryeG" }
+        - { platform: x, user_url: "https://x.com/NovaryeG" }
+        # - { platform: youtube, user_url: "https://www.youtube.com/jekyll" }

@@ -1,3 +1,7 @@
 {
-  "recommendations": []
+  "recommendations": [
+    // "figma.figma-vscode-extension"
+    "ginfuru.vscode-jekyll-snippets",
+    "ginfuru.ginfuru-vscode-jekyll-syntax"
+  ]
 }

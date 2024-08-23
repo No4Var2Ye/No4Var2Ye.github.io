@@ -1,0 +1,2 @@
+
+If you have the theme gem, you can (if you desire) `run bundle` update to update all gems in your project. Or you can run `bundle update <THEME>`, replacing `<THEME>` with the theme name, such as `minima`, to just update the theme gem. Any new files or updates the theme developer has made (such as to stylesheets or includes) will be pulled into your project automatically.
