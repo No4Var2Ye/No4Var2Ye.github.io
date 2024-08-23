@@ -4,28 +4,82 @@ author:
     email: jidijam.olk@outlook.com
 
 lang: en
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: Asia/Shanghai
 
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
+# "欢迎漫步于我的博客天地，这里融合了科技的前沿、生活的智慧与旅行的奇遇。
+# 探索每一篇文章，品味独特见解，从中汲取灵感与智慧，为你的生活增添色彩。"
 description: >-
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+    "Welcome to the world of my blog, where the cutting edge of technology, 
+    the wisdom of daily life, and the wonders of travel come together. 
+    Explore each article, savor unique insights, 
+    and draw inspiration and wisdom to add color to your life."
+
+# the avatar on sidebar, support local or CORS resources
+avatar: /assets/avatar.jpg
 
 # Site settings
-domain: No4Var2Ye.github.io
+# domain: No4Var2Ye.github.io
 url: https://No4Var2Ye.github.io
 baseurl: ""
-
-# Build settings
-theme: minima
-# theme: VarAtoZ
-# remote_theme: No4Var2Ye/VarAtoZ
+feed:
+    path: "feed.xml"
 
 plugins:
     - jekyll-feed
     - jekyll-remote-theme
     - jekyll-seo-tag
+    - jekyll-paginate
+    - jekyll-sitemap
+
+# Build settings
+# theme: VarAtoZ
+# remote_theme: No4Var2Ye/VarAtoZ
+
+# Web Analytics Settings
+analytics:
+    google:
+        id: G-MRH0X2Y200
+    goatcounter:
+        id: # fill in your GoatCounter ID
+    umami:
+        id: # fill in your Umami ID
+        domain: # fill in your Umami domain
+    matomo:
+        id: # fill in your Matomo ID
+        domain: # fill in your Matomo domain
+
+google_analytics: G-MRH0X2Y200
+
+disqus:
+    shortname: novarye
+    
+comments:
+    # Global switch for the post comment system. Keeping it empty means disabled.
+    provider: giscus
+    # The provider options are as follows:
+    disqus:
+        shortname: novarye
+    # utterances settings › https://utteranc.es/
+    utterances:
+        repo: # <gh-username>/<repo>
+        issue_term: # < url | pathname | title | ...>
+    # Giscus options › https://giscus.app
+    giscus:
+        repo: winxuan/winxuan.github.io # <gh-username>/<repo>
+        repo_id: R_kgDOK9xKpw
+        category: Comments
+        category_id: DIC_kwDOK9xKp84CcIV2
+        mapping: pathname # optional, default to 'pathname'
+        input_position: bottom # optional, default to 'bottom'
+        lang: zh-CN # optional, default to the value of `site.lang`
+        reactions_enabled: 1 # optional, default to the value of `1`
+
+pagination:
+    enabled: true
+    per_page: 10
+    title: "Page {{ page.number }}"
+paginate: 10
 
 # GitHub Pages settings
 lsi: false
@@ -36,7 +90,17 @@ gist:
     noscript: false
 kramdown:
     math_engine: mathjax
+    # parse_block_html: true
     syntax_highlighter: rouge
+    # parse_span_html: true
+    syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+        css_class: highlight
+        # default_lang: console
+        span:
+            line_numbers: false
+        block:
+            line_numbers: true
+            start_line: 1
 
 # Markdown settings
 markdown: kramdown
@@ -99,3 +163,13 @@ varatoz:
         - { platform: twitter, user_url: "https://twitter.com/NovaryeG" }
         # - { platform: x, user_url: "https://x.com/NovaryeG" }
         # - { platform: youtube, user_url: "https://www.youtube.com/jekyll" }
+
+exclude:
+    - "*.gem"
+    - "*.gemspec"
+    - README.md
+    - LICENSE.md
+    - CONTRIBUTING.md
+    - SECURITY.md
+    - rollup.config.js
+    - package*.json

@@ -1,0 +1,27 @@
+<!-- _layouts/pagination.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pagination</title>
+</head>
+
+<body>
+    <h1>{{ page.title }}</h1>
+    <div>
+        {% for post in paginator.posts %}
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+        {% endfor %}
+    </div>
+    <div>
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">Previous</a>
+        {% endif %}
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">Next</a>
+        {% endif %}
+    </div>
+</body>
+
+</html>

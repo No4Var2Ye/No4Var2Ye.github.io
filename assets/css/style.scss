@@ -3,5 +3,5 @@
 ---
 
 @import
-  "minima/skins/{{ site.varatoz.skin | default: 'classic' }}",
-  "minima/initialize";
+  "varatoz/skins/{{ site.varatoz.skin | default: 'classic' }}",
+  "varatoz/initialize";
