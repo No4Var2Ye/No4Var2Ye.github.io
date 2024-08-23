@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-#     bundle exec jekyll serve
+
 gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
