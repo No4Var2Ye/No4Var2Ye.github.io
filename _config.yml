@@ -37,6 +37,9 @@ plugins:
 # remote_theme: No4Var2Ye/VarAtoZ
 
 # Web Analytics Settings
+sass:
+  style: compressed
+  
 analytics:
     google:
         id: G-MRH0X2Y200
@@ -53,7 +56,7 @@ google_analytics: G-MRH0X2Y200
 
 disqus:
     shortname: novarye
-    
+
 comments:
     # Global switch for the post comment system. Keeping it empty means disabled.
     provider: giscus
@@ -115,13 +118,12 @@ excerpt_separator: "<!--more-->"
 header_pages:
     - blog.md
     - contact.md
-    - about.md
+    - about.markdown
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
 
 varatoz:
-    # Minima skin selection.
     # Available skins are:
     # classic	             Default, light color scheme.
     # dark	             Dark variant of the classic skin.
