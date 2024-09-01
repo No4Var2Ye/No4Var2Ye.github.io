@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Github Pages!"
 date:   2024-08-21 03:58:56 +0800
 author: NoVarYe
-categories: Github update
+categories: Github
 comments: true
 ---
 

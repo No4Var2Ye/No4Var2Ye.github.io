@@ -24,7 +24,6 @@ Thumbs.db
 
 # Files
 ref/
-_draft/
 
 # IDE
 .idea/
@@ -34,3 +33,15 @@ _draft/
 # documentation
 docs/
 !docs/CONTRIBUTING.md
+!docs/CODE_OF_CONDUCT.md
+!docs/ISSUE_TEMPLATE.md
+!docs/PULL_REQUEST_TEMPLATE.md
+!docs/CHANGELOG.md
+!docs/SECURITY.md
+
+# Posts
+**/_drafts/
+
+# Node modules
+node_modules/
+package-lock.json
