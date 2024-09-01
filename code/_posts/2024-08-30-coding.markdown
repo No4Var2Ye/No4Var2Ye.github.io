@@ -10,6 +10,13 @@ author: NoVarYe
 
 # Template of Blogs
 
-> Author: {{ page.author }} | Date: {{ page.date |  date: "%a, %B  %d, %Y" }}
+Author: NoVarYe | Date: August 30, 2024
+
+## Terms
+
+编码
+
 
 ## Reference
+
+Code: The Hidden Language of Computer Hardware and Software. Charles Petzold

@@ -16,7 +16,7 @@ description: >-
     and draw inspiration and wisdom to add color to your life."
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/avatar.jpg
+avatar: /assets/avatars/avatar.jpg
 
 # Site settings
 # domain: No4Var2Ye.github.io
@@ -38,8 +38,8 @@ plugins:
 
 # Web Analytics Settings
 sass:
-  style: compressed
-  
+    style: compressed
+
 analytics:
     google:
         id: G-MRH0X2Y200
@@ -82,7 +82,29 @@ pagination:
     enabled: true
     per_page: 10
     title: "Page {{ page.number }}"
-paginate: 10
+paginate:
+
+# Collection settings
+# TODO: Add your collections here.
+collections:
+    note:
+        output: true
+        permalink: /note/:path/
+    design:
+        output: true
+        permalink: /design/:path/
+    life:
+        output: true
+        permalink: /life/:path/
+    code:
+        output: true
+        permalink: /code/:path/
+    cg:
+        output: true
+        permalink: /cg/:path/
+    ai:
+        output: true
+        permalink: /ai/:path/
 
 # GitHub Pages settings
 lsi: false
@@ -115,18 +137,20 @@ excerpt_separator: "<!--more-->"
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
+# TODO: Add the pages you want to show up in the header.
 header_pages:
-    - blog.md
-    - contact.md
+    # - blog.md
+    # - contact.md
+    - webgl-example.html
     - about.markdown
 
-# Set to `true` to show excerpts on the homepage.
+# TODO: Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
 
 varatoz:
     # Available skins are:
     # classic	             Default, light color scheme.
-    # dark	             Dark variant of the classic skin.
+    # dark	                 Dark variant of the classic skin.
     skin: classic
 
     # VarAtoZ date format.
