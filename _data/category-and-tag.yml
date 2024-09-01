@@ -1,0 +1,58 @@
+category:
+  - name: "Desgin"
+    description: "Desgin"
+
+  - name: "Development"
+    description: "Development"
+
+  - name: "Business"
+    description: "Business"
+
+  - name: "Marketing"
+    description: "Marketing"
+
+  - name: "Technology"
+    description: "Technology"
+
+  - name: "Lifestyle"
+    description: "Lifestyle"
+
+  - name: "Photography"
+    description: "Photography"
+
+  - name: "Travel"
+    description: "Travel"
+
+  - name: "Health"
+    description: "Health"
+
+  - name: "Food"
+    description: "Food"
+
+  - name: "Music"
+    description: "Music"
+
+  - name: "cg"
+    description: "Computer Graphics"
+
+  - name: "ai"
+    description: "Artificial Intelligence"
+
+  - name: "note"
+    description: "note"
+
+  - name: "cv"
+    description: "Computer Vision"
+
+tags:
+  - name: "ai"
+    description: "Artificial Intelligence"
+
+  - name: "cg"
+    description: "Computer Graphics"
+
+  - name: "note"
+    description: "note"
+
+  - name: "graphics"
+    description: "graphics"
