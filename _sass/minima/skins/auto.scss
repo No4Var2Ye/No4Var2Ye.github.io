@@ -42,65 +42,65 @@ $lm-table-border-color: $lm-border-color-01 !default;
   .highlight {
     .c {
       color: #998;
-      font-style: italic
+      font-style: italic;
     }
 
     // Comment
     .err {
       color: #a61717;
-      background-color: #e3d2d2
+      background-color: #e3d2d2;
     }
 
     // Error
     .k {
-      font-weight: bold
+      font-weight: bold;
     }
 
     // Keyword
     .o {
-      font-weight: bold
+      font-weight: bold;
     }
 
     // Operator
     .cm {
       color: #998;
-      font-style: italic
+      font-style: italic;
     }
 
     // Comment.Multiline
     .cp {
       color: #999;
-      font-weight: bold
+      font-weight: bold;
     }
 
     // Comment.Preproc
     .c1 {
       color: #998;
-      font-style: italic
+      font-style: italic;
     }
 
     // Comment.Single
     .cs {
       color: #999;
       font-weight: bold;
-      font-style: italic
+      font-style: italic;
     }
 
     // Comment.Special
     .gd {
       color: #000;
-      background-color: #fdd
+      background-color: #fdd;
     }
 
     // Generic.Deleted
     .gd .x {
       color: #000;
-      background-color: #faa
+      background-color: #faa;
     }
 
     // Generic.Deleted.Specific
     .ge {
-      font-style: italic
+      font-style: italic;
     }
 
     // Generic.Emph
@@ -345,6 +345,7 @@ $lm-table-border-color: $lm-border-color-01 !default;
     }
 
     // Name.Variable.Instance
+
     .il {
       color: #099
     }
@@ -422,7 +423,7 @@ $dm-table-border-color: $dm-border-color-01 !default;
     // Comment.Multiline
     .cp {
       color: #545454;
-      font-weight: bold
+      font-weight: bold;
     }
 
     // Comment.Preproc
@@ -855,7 +856,7 @@ $table-border-color: $lm-table-border-color;
   $table-header-border: $dm-table-header-border;
   $table-border-color: $dm-table-border-color;
 
-  @include dm-highlight;
+  @include dm-highlight;  
 
 
 }

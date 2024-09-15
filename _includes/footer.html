@@ -2,14 +2,15 @@
     <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
     <div class="wrapper">
-
         <div class="footer-col-wrapper">
             <div class="footer-col">
                 <p class="feed-subscribe">
                     <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
                         <svg class="svg-icon orange">
-                            <use xlink:href="{{ 'assets/varatoz-social-icons.svg#rss' | relative_url }}"></use>
-                        </svg><span>Subscribe</span>
+                            <use
+                                xlink:href="{{ 'assets/varatoz-social-icons.svg#rss' | relative_url }}"
+                            ></use></svg
+                        ><span>Subscribe</span>
                     </a>
                 </p>
                 {%- if site.author %}
@@ -17,10 +18,12 @@
                     <!-- TODO: if you want to add more info about youself -->
                     {% if site.author.name -%}
                     <li class="p-name">{{ site.author.name | escape }}</li>
-                    {% endif -%}
-
-                    {% if site.author.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+                    {% endif -%} {% if site.author.email -%}
+                    <li
+                        ><a class="u-email" href="mailto:{{ site.author.email }}"
+                            >{{ site.author.email }}</a
+                        ></li
+                    >
                     {%- endif %}
                 </ul>
                 {%- endif %}
@@ -30,10 +33,6 @@
             </div>
         </div>
 
-        <div class="social-links">
-            {%- include social.html -%}
-        </div>
-
+        <div class="social-links"> {%- include social.html -%} </div>
     </div>
-
 </footer>

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Template of Blogs!"
+title: "Coding!"
 date: 2024-08-26 08:42:03 +0800
 author: NoVarYe
 # categories: class01 class02
 # tags: tag01 tag02
-# comments: true
+comments: false
 ---
 
 # Template of Blogs
@@ -14,8 +14,15 @@ Author: NoVarYe | Date: August 30, 2024
 
 ## Terms
 
-编码
-
+> **编码**
+>
+> 3. a. 一种在信息传输过程中用来表述字母或数字的信号系统。\
+>    b. 由被赋予了一定主观意义的符号、字母以及单词所组成的系统，该系统可用于传输需要保密或简短的信息。
+> 4. 一种由若干符号和规则组成的系统，用来向计算机表述指令。
+>
+> ——摘自《美国传统英语词典》
+>
+> ![code]({{'/assets/images/Posts_24-09-02_19-54-11.png' | relative_url}})
 
 ## Reference
 

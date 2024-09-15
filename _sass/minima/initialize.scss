@@ -1,49 +1,45 @@
+/* initialize.scss */
 @charset "utf-8";
 
 // Define defaults for each variable.
 
 $base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
 $code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+$chinese-font-family: "Microsoft YaHei", "SimSun", "Ping Fang SC", "Heiti SC", "Noto Sans SC", "Source Han Sans", sans-serif, !default;
 $base-font-size: 16px !default;
-$base-font-weight: 400 !default;
-$small-font-size: $base-font-size * 0.875 !default;
+$base-font-weight: 400 !default; // normal
+$small-font-size: $base-font-size * 0.875 !default; // 14px
 $base-line-height: 1.5 !default;
 
-$spacing-unit: 30px !default;
+// Spacing and layout related variables
+$spacing-unit: 30px !default; // Base spacing unit
+$table-text-align: left !default; // Default text alignment for tables
+$content-width: 800px !default; // Width of the content area
 
-$table-text-align: left !default;
-
-// Width of the content area
-$content-width: 800px !default;
-
+// Device Breakpoint Parameters
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
 $on-medium: $on-palm !default;
 $on-large: $on-laptop !default;
 
+$breakpoint-xs: 480px !default; // Small Screens (Phones)
+$breakpoint-sm: 768px !default; // Medium Screens (Tablets)
+$breakpoint-md: 1024px !default; // Large Screens (Small Desktops)
+$breakpoint-lg: 1440px !default; // Larger Screens (Large Desktop Monitors)
+$breakpoint-xl: 1440px !default; // Extra Large Screens (Ultra-Wide Monitors)
+
 // Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
-// Notice the following mixin uses max-width, in a deprecated, desktop-first
-// approach, whereas media queries used elsewhere now use min-width.
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+    @media screen and (min-width: $device) {
+        @content;
+    }
 }
 
 @mixin relative-font-size($ratio) {
-  font-size: #{$ratio}rem;
+    font-size: #{$ratio}rem;
 }
 
 // Import pre-styling-overrides hook and style-partials.
-@import "varatoz/custom-variables", // Hook to override predefined variables.
-"varatoz/base", // Defines element resets.
-"varatoz/layout", // Defines structure and style based on CSS selectors.
-"varatoz/custom-styles" // Hook to override existing styles.
-;
+@import "varatoz/base", // Defines element resets.
+"varatoz/layout"; // Defines structure and style based on CSS selectors.
