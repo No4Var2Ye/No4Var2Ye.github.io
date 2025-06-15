@@ -1,4 +1,5 @@
-source "https://rubygems.org"
+# source "https://rubygems.org"
+source "https://gems.ruby-china.com/"
 
 gem "github-pages", "~> 232", group: :jekyll_plugins
 
@@ -13,10 +14,10 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem 'wdm', '~> 0.2.0', :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
 
-gem 'faraday-retry'
+gem "faraday-retry"

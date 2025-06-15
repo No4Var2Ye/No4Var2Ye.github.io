@@ -5,9 +5,6 @@ category:
   - name: "Development"
     description: "Development"
 
-  - name: "Business"
-    description: "Business"
-
   - name: "Marketing"
     description: "Marketing"
 
@@ -32,23 +29,23 @@ category:
   - name: "Music"
     description: "Music"
 
-  - name: "cg"
+  - name: "CG"
     description: "Computer Graphics"
 
-  - name: "ai"
+  - name: "AI"
     description: "Artificial Intelligence"
 
   - name: "note"
     description: "note"
 
-  - name: "cv"
+  - name: "CV"
     description: "Computer Vision"
 
 tags:
-  - name: "ai"
+  - name: "AI"
     description: "Artificial Intelligence"
 
-  - name: "cg"
+  - name: "CG"
     description: "Computer Graphics"
 
   - name: "note"

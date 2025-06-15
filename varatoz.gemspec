@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
     spec.name          = "varatoz"
     spec.version       = "1.0.0"
-    spec.authors       = ["NoVarYe"]
+    spec.authors       = ["No4Var2Ye"]
     spec.email         = ["jidijam.olk@outlook.com"]
   
     spec.summary       = "A minimal, responsive, and feature-rich Jekyll theme for technical writing."

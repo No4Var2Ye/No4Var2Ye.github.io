@@ -3,7 +3,12 @@
   "frontMatter.framework.id": "jekyll",
   "frontMatter.content.publicFolder": "assets",
   "frontMatter.preview.host": "http://localhost:4000",
-  "frontMatter.content.pageFolders": [],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "",
+      "path": "[[workspace]]/docs"
+    }
+  ],
   "frontMatter.git.enabled": true,
   "frontMatter.website.host": "https://no4var2ye.github.io/",
   "frontMatter.framework.startCommand": "bundle exec jekyll serve --livereload --drafts"

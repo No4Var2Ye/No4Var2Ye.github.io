@@ -1,11 +1,15 @@
-title: NoWisdomS
+# ====================================================================
+# Jekyll configuration file for VarAtoZ theme
+# ====================================================================
+title: NoWisdomS # 网站标题（显示在浏览器标签和SEO中）
 author:
     name: NoVarYe
     email: jidijam.olk@outlook.com
-lang: en
+lang: en # 默认语言（en=英语，zh-CN=中文）
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Shanghai
 
+# 网站描述（SEO关键字段，显示在搜索引擎结果中）
 # "欢迎漫步于我的博客天地，这里融合了科技的前沿、生活的智慧与旅行的奇遇。
 # 探索每一篇文章，品味独特见解，从中汲取灵感与智慧，为你的生活增添色彩。"
 description: >-
@@ -17,28 +21,36 @@ description: >-
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/avatars/avatar.jpg
 
+# ====================================================================
 # Site settings
+# 站点URL与构建配置
 # domain: No4Var2Ye.github.io
+# ====================================================================
 url: https://No4Var2Ye.github.io
 baseurl: ""
 feed:
     path: "feed.xml"
 
+# 启用的Jekyll插件列表（需在Gemfile中先安装）
 plugins:
     - jekyll-feed
-    - jekyll-remote-theme
+    - jekyll-remote-theme # 远程加载主题
     - jekyll-seo-tag
     - jekyll-paginate
-    - jekyll-sitemap
+    - jekyll-sitemap # 生成sitemap.xml
 
-# Build settings
-# theme: VarAtoZ
+# ====================================================================
+# Theme settings
+# theme: varatoZ
 # remote_theme: No4Var2Ye/VarAtoZ
+# ====================================================================
 
-# Web Analytics Settings
 sass:
     style: compressed
 
+# ====================================================================
+# Web Analytics Settings
+# ====================================================================
 analytics:
     google:
         id: G-MRH0X2Y200
@@ -68,7 +80,7 @@ comments:
         issue_term: # < url | pathname | title | ...>
     # Giscus options › https://giscus.app
     giscus:
-        repo: winxuan/winxuan.github.io # <gh-username>/<repo>
+        repo: No4Var2Ye/no4var2ye.github.io # <gh-username>/<repo>
         repo_id: R_kgDOK9xKpw
         category: Comments
         category_id: DIC_kwDOK9xKp84CcIV2
@@ -78,7 +90,7 @@ comments:
         reactions_enabled: 1 # optional, default to the value of `1`
 
 # TODO: Pagination settings
-paginate: 15
+paginate: 30
 
 # Collection settings
 # TODO: Add your collections here.
@@ -92,11 +104,13 @@ collections:
     development:
         output: true
         permalink: /development/:path/
-    lifestyle:
-        output: true
-        permalink: /lifestyle/:path/
+    # lifestyle:
+    #     output: true
+    #     permalink: /lifestyle/:path/
 
+# ====================================================================
 # GitHub Pages settings
+# ====================================================================
 github: [metadata]
 lsi: false
 safe: true
@@ -130,7 +144,6 @@ excerpt_separator: "<!--more-->"
 # in order as they should show up.
 # TODO: Add the pages you want to show up in the header.
 header_pages:
-    # - blog.md
     # - contact.html
     - about.markdown
 
