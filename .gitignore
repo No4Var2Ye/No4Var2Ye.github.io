@@ -30,6 +30,8 @@ ref/
 .idea/
 .vscode/
 !.vscode/settings.json
+frontmatter.json
+frontmatter/
 
 # documentation
 !docs/CONTRIBUTING.md
@@ -45,3 +47,6 @@ ref/
 # Node modules
 node_modules/
 package-lock.json
+
+# Logs
+*.logs
