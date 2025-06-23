@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thinking of Human Machine Interaction"
-date: 2024-08-26 09:24:16 +0800
+created: 2024-08-26 09:24:16 +0800
 author: NoVarYe
 categories: Design HMI
 # tags: tag01 tag02

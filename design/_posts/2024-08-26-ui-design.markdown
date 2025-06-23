@@ -2,7 +2,7 @@
 layout: post
 # permalink: /posts/:title/
 title: "UI Design Specifications"
-date: 2024-08-30 08:53:12 +0800
+created: 2024-08-30 08:53:12 +0800
 author: NoVarYe
 categories: Design
 # tags: tag01, tag02

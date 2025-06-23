@@ -1,0 +1,23 @@
+---
+# permalink: /posts/:title/
+layout: post
+title: "HMI!"
+created: 2024-09-06 09:18:32 +0800
+author: NoVarYe
+# categories: class01, class02
+# tag: tag-one
+# tags: tag01, tag02
+comments: false
+---
+
+# Template of Blogs
+
+Author: NoVarYe | Date: September 06, 2024
+
+硬件
+
+系统负载
+
+## Terms
+
+## Reference
