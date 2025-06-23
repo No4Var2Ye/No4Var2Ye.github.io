@@ -48,3 +48,15 @@ You can set the environment by using the `JEKYLL_ENV` environment variable when 
 ## License
 
 The theme is available as open source under the terms of the GNU v3 License.
+
+cd _site
+git init
+git checkout -b gh-pages
+git add .
+git commit -m "Deploy site"
+git remote add origin https://github.com/No4Var2Ye/No4Var2Ye.github.io.git
+
+git checkout --orphan gh-pages
+git rm -rf .
+git commit --allow-empty -m "initial commit"
+git push origin gh-pages
