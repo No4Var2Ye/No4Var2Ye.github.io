@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://no4var2ye.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://no4var2ye.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-06-24T01:35:25+08:00</updated><id>https://no4var2ye.github.io/feed.xml</id><title type="html">NoWisdomS</title><subtitle>&quot;Welcome to the world of my blog, where the cutting edge of technology,  the wisdom of daily life, and the wonders of travel come together.  Explore each article, savor unique insights,  and draw inspiration and wisdom to add color to your life.&quot;</subtitle><author><name>NoVarYe</name><email>jidijam.olk@outlook.com</email></author><entry><title type="html">Mathjax Test</title><link href="https://no4var2ye.github.io/development/markdown/2025/05/26/mathjax-test.html" rel="alternate" type="text/html" title="Mathjax Test" /><published>2025-05-26T00:00:00+08:00</published><updated>2025-05-26T00:00:00+08:00</updated><id>https://no4var2ye.github.io/development/markdown/2025/05/26/mathjax-test</id><content type="html" xml:base="https://no4var2ye.github.io/development/markdown/2025/05/26/mathjax-test.html"><![CDATA[<ul>
+  <li>A safe integer is an integer that
+    <ul>
+      <li>can be exactly represented as an IEEE-754 double precision number, and</li>
+      <li>whose IEEE-75 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation</li>
+    </ul>
+  </li>
+  <li>For example, $ 2 ^ {53} - 1 $ is a safe integer,
+    <ul>
+      <li>it can be exactly represented</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>NoVarYe</name><email>jidijam.olk@outlook.com</email></author><category term="development" /><category term="markdown" /><category term="test" /><summary type="html"><![CDATA[A safe integer is an integer that can be exactly represented as an IEEE-754 double precision number, and whose IEEE-75 representation cannot be the result of rounding any other integer to fit the IEEE-754 representation For example, $ 2 ^ {53} - 1 $ is a safe integer, it can be exactly represented]]></summary></entry><entry><title type="html">Test markdown</title><link href="https://no4var2ye.github.io/development/markdown/2025/02/28/test-markdown.html" rel="alternate" type="text/html" title="Test markdown" /><published>2025-02-28T00:00:00+08:00</published><updated>2025-02-28T00:00:00+08:00</updated><id>https://no4var2ye.github.io/development/markdown/2025/02/28/test-markdown</id><content type="html" xml:base="https://no4var2ye.github.io/development/markdown/2025/02/28/test-markdown.html"><![CDATA[<p>You can write regular <a href="https://markdowntutorial.com/">markdown</a> here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to <a href="http://markdowntutorial.com/">take 5 minutes to learn how to write in markdown</a> - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.</p>
+
+<p><strong>Here is some bold text</strong></p>
+
+<h2 id="here-is-a-secondary-heading">Here is a secondary heading</h2>
+
+<p>Here’s a useless table:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Number</th>
+      <th style="text-align: left">Next number</th>
+      <th style="text-align: left">Previous number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Five</td>
+      <td style="text-align: left">Six</td>
+      <td style="text-align: left">Four</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Ten</td>
+      <td style="text-align: left">Eleven</td>
+      <td style="text-align: left">Nine</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Seven</td>
+      <td style="text-align: left">Eight</td>
+      <td style="text-align: left">Six</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Two</td>
+      <td style="text-align: left">Three</td>
+      <td style="text-align: left">One</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>How about a yummy crepe?</p>
+
+<p><img src="https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg" alt="Crepe" /></p>
+
+<p>It can also be centered!</p>
+
+<p><img src="https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg" alt="Crepe" class="center-block" /></p>
+
+<p>Here’s a code chunk:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>And here is the same code with syntax highlighting:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span><span class="p">(</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nf">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>And here is the same code yet again but with line numbers:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span><span class="p">(</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nf">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 id="boxes">Boxes</h2>
+<p>You can add notification, warning and error boxes like this:</p>
+
+<h3 id="notification">Notification</h3>
+
+<p class="box-note"><strong>Note:</strong> This is a notification box.</p>
+
+<h3 id="warning">Warning</h3>
+
+<p class="box-warning"><strong>Warning:</strong> This is a warning box.</p>
+
+<h3 id="error">Error</h3>
+
+<p class="box-error"><strong>Error:</strong> This is an error box.</p>
+
+<h3 id="emoji">Emoji</h3>
+
+<p>This single quote code <code class="language-plaintext highlighter-rouge">inet:email:message:to</code> will not be parsed to emoji icon
+:+1:.</p>]]></content><author><name>NoVarYe</name><email>jidijam.olk@outlook.com</email></author><category term="development" /><category term="markdown" /><category term="test" /><summary type="html"><![CDATA[You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a secondary heading Here’s a useless table: Number Next number Previous number Five Six Four Ten Eleven Nine Seven Eight Six Two Three One How about a yummy crepe? It can also be centered! Here’s a code chunk: 1 2 3 4 var foo = function(x) { return(x + 5); } foo(3) And here is the same code with syntax highlighting: 1 2 3 4 var foo = function(x) { return(x + 5); } foo(3) And here is the same code yet again but with line numbers: 1 2 3 4 var foo = function(x) { return(x + 5); } foo(3) Boxes You can add notification, warning and error boxes like this: Notification Note: This is a notification box. Warning Warning: This is a warning box. Error Error: This is an error box. Emoji This single quote code inet:email:message:to will not be parsed to emoji icon :+1:.]]></summary></entry><entry><title type="html">Another test markdown</title><link href="https://no4var2ye.github.io/development/markdown/2025/01/01/another-test-markdown.html" rel="alternate" type="text/html" title="Another test markdown" /><published>2025-01-01T00:00:00+08:00</published><updated>2025-01-01T00:00:00+08:00</updated><id>https://no4var2ye.github.io/development/markdown/2025/01/01/another-test-markdown</id><content type="html" xml:base="https://no4var2ye.github.io/development/markdown/2025/01/01/another-test-markdown.html"><![CDATA[<p>Put the math expression within <span>$</span>…$:</p>
+
+<p>\(\LaTeX{}\)</p>
+
+<p>$\Pi$</p>
+
+<p>$ a * b = c ^ b $</p>
+
+<p>$ 2^{\frac{n-1}{3}} $</p>
+
+<p>$ \int_a^b f(x)\,dx. $</p>
+
+<p>\( \int_a^b f(x)\,dx. \)</p>
+
+\[\begin{cases}
+\text{if true}\ foo \\
+\text{if false}\ bar
+\end{cases}\]
+
+<table>
+  <tbody>
+    <tr>
+      <td>$ \rho {\rm{FOD}} = \sum\limits{\sigma ,i} {(\delta _1 - \delta _2 n_i^\sigma )</td>
+      <td>\phi _i^\sigma ({\bf{r}})</td>
+      <td>^2} $</td>
+    </tr>
+  </tbody>
+</table>
+
+\[\rho {\rm{FOD}} = \sum\limits{\sigma ,i} {(\delta _1 - \delta _2 n_i^\sigma )|\phi _i^\sigma ({\bf{r}})|^2}\]
+
+<p>Here is a liquid filter.</p>
+
+<p>`escape inline code`<br />
+<code class="language-plaintext highlighter-rouge">inline code</code><br />
+Here is a <strong>capture block</strong>.</p>
+
+<p>100 / 3 = 33</p>
+
+<p>:+1:
+:bolivia:</p>
+
+<p>\1. 21312<br />
+\2. 21312<br />
+\4. 4214</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+</pre></td><td class="code"><pre><span class="kn">import</span> <span class="n">networkx</span> <span class="k">as</span> <span class="n">nx</span>
+<span class="kn">from</span> <span class="n">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="n">diagrams</span> <span class="o">=</span> <span class="nf">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="n">particle_counts</span> <span class="o">=</span> <span class="nf">defaultdict</span><span class="p">(</span><span class="n">Counter</span><span class="p">)</span>
+
+<span class="nf">for </span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">),</span> <span class="n">neighbors</span> <span class="ow">in</span> <span class="n">common_neighbors</span><span class="p">.</span><span class="nf">items</span><span class="p">():</span>
+    <span class="c1"># Build up the graph of connections between the
+</span>    <span class="c1"># common neighbors of a and b.
+</span>    <span class="n">g</span> <span class="o">=</span> <span class="n">nx</span><span class="p">.</span><span class="nc">Graph</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nf">set</span><span class="p">(</span><span class="n">nl</span><span class="p">.</span><span class="n">point_indices</span><span class="p">[</span>
+            <span class="n">nl</span><span class="p">.</span><span class="n">query_point_indices</span> <span class="o">==</span> <span class="n">i</span><span class="p">]).</span><span class="nf">intersection</span><span class="p">(</span><span class="n">neighbors</span><span class="p">):</span>
+            <span class="n">g</span><span class="p">.</span><span class="nf">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+
+    <span class="c1"># Define the identifiers for a CNA diagram:
+</span>    <span class="c1"># The first integer is 1 if the particles are bonded, otherwise 2
+</span>    <span class="c1"># The second integer is the number of shared neighbors
+</span>    <span class="c1"># The third integer is the number of bonds among shared neighbors
+</span>    <span class="c1"># The fourth integer is an index, just to ensure uniqueness of diagrams
+</span>    <span class="n">diagram_type</span> <span class="o">=</span> <span class="mi">2</span><span class="o">-</span><span class="nf">int</span><span class="p">(</span><span class="n">b</span> <span class="ow">in</span> <span class="n">nl</span><span class="p">.</span><span class="n">point_indices</span><span class="p">[</span><span class="n">nl</span><span class="p">.</span><span class="n">query_point_indices</span> <span class="o">==</span> <span class="n">a</span><span class="p">])</span>
+    <span class="n">key</span> <span class="o">=</span> <span class="p">(</span><span class="n">diagram_type</span><span class="p">,</span> <span class="nf">len</span><span class="p">(</span><span class="n">neighbors</span><span class="p">),</span> <span class="n">g</span><span class="p">.</span><span class="nf">number_of_edges</span><span class="p">())</span>
+    <span class="c1"># If we've seen any neighborhood graphs with this signature,
+</span>    <span class="c1"># we explicitly check if the two graphs are identical to
+</span>    <span class="c1"># determine whether to save this one. Otherwise, we add
+</span>    <span class="c1"># the new graph immediately.
+</span>    <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">diagrams</span><span class="p">:</span>
+        <span class="n">isomorphs</span> <span class="o">=</span> <span class="p">[</span><span class="n">nx</span><span class="p">.</span><span class="nf">is_isomorphic</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span> <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">]]</span>
+        <span class="k">if</span> <span class="nf">any</span><span class="p">(</span><span class="n">isomorphs</span><span class="p">):</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">isomorphs</span><span class="p">.</span><span class="nf">index</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">append</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">index</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">append</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">index</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+    <span class="n">cna_signature</span> <span class="o">=</span> <span class="n">key</span> <span class="o">+</span> <span class="p">(</span><span class="n">idx</span><span class="p">,)</span>
+    <span class="n">particle_counts</span><span class="p">[</span><span class="n">a</span><span class="p">].</span><span class="nf">update</span><span class="p">([</span><span class="n">cna_signature</span><span class="p">])</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre><span class="kt">void</span> <span class="nf">insert</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">key</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">*</span><span class="n">key</span> <span class="o">==</span> <span class="sc">'\0'</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">finish</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="o">*</span><span class="n">key</span> <span class="o">-</span> <span class="sc">'A'</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">next</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span>
+            <span class="n">next</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Trie</span><span class="p">();</span>
+        <span class="n">next</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">insert</span><span class="p">(</span><span class="n">key</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">p</span> <span class="s2">":+1:"</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="gi">+        'user_exists' =&gt; 'SELECT EXISTS(SELECT 1 FROM table WHERE username = (:username || \'@sample'))',
++        'get_users' =&gt; 'SELECT split_part(username, \'@\', 1) FROM table WHERE (username ILIKE :search) OR (name ILIKE :search)',
++        'get_password_hash_for_user' =&gt; 'SELECT split_part(password, \'{CRYPT}\', 2) FROM table WHERE username = (:username || \'@sample\')',
++        'set_password_hash_for_user' =&gt; 'UPDATE table SET password =  \'{CRYPT}\' || :new_password_hash WHERE username = (:username || \'@sample\')',
+</span></pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Reload the Nginx:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="gp">$</span><span class="w"> </span><span class="nb">sudo </span>nginx <span class="nt">-s</span> reload
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>:</th>
+      <th>:                  :</th>
+      <th>: \(O_3 + C_2H_2 \rightarrow\)         :</th>
+      <th> </th>
+      <th> </th>
+      <th>:  \(O_3 + C_2H_4 \rightarrow\) :</th>
+      <th> </th>
+      <th> </th>
+      <th>:       :</th>
+    </tr>
+    <tr>
+      <th>:  ^^ Method            :</th>
+      <th>^^ \(\lambda^a\)</th>
+      <th>vdW</th>
+      <th>TS</th>
+      <th>cycloadd.</th>
+      <th>vdW</th>
+      <th>TS</th>
+      <th>cycloadd.</th>
+      <th>^^ MAE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(\lambda\)-tPBE</td>
+      <td>0.20</td>
+      <td>-0.40</td>
+      <td>7.69</td>
+      <td>-68.00</td>
+      <td>-1.86</td>
+      <td>4.87</td>
+      <td>-57.57</td>
+      <td>1.29</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>MC1H-PBE \(^b\)</td>
+      <td>0.25</td>
+      <td>-1.08</td>
+      <td>3.66</td>
+      <td>-70.97</td>
+      <td>-1.25</td>
+      <td>0.13</td>
+      <td>-61.26</td>
+      <td>3.35</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Reference values \(^c\)</td>
+      <td>———</td>
+      <td>-1.90</td>
+      <td>7.74</td>
+      <td>-63.80</td>
+      <td>-1.94</td>
+      <td>3.37</td>
+      <td>-57.15</td>
+      <td>———</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>\(^a\) The optimal mixing parameter.\(\~\) \(^b\) From Ref. .\(\~\)  \(^c\) Best estimates from Ref. .</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tfoot>
+</table>
+
+<table class="custom-table">
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>spancell1</td>
+      <td> </td>
+      <td>spancell2</td>
+      <td> </td>
+      <td>cell</td>
+      <td>spancell3</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>^^ spancell1</td>
+      <td> </td>
+      <td>spancell2</td>
+      <td> </td>
+      <td>cell</td>
+      <td>spancell3</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+|:-----:|:-----:|:-----:|:-----:|
+| (0,0) | (0,1) | (0,2) | (0,3) |
+|     (1,0)    || ^^    | (1,3) |
+</script>
+
+<table>
+  <tbody>
+    <tr>
+      <td>(0,0)</td>
+      <td>(0,1)</td>
+      <td>(0,2)</td>
+      <td>(0,3)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>(1,0)</td>
+      <td> </td>
+      <td>^^</td>
+      <td>(1,3)</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>(0,0)</td>
+      <td>(0,1)</td>
+      <td>(0,2)</td>
+      <td>(0,3)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>(1,0)</td>
+      <td> </td>
+      <td> </td>
+      <td>(1,3)</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>(0,0)</td>
+      <td>(0,1)</td>
+      <td>(0,2)</td>
+      <td>(0,3)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>(1,0)</td>
+      <td> </td>
+      <td> </td>
+      <td>^^</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>(0,0)</td>
+      <td>(0,1)</td>
+      <td>(0,2)</td>
+      <td>(0,3)</td>
+      <td>\</td>
+    </tr>
+    <tr>
+      <td>(1,0)</td>
+      <td> </td>
+      <td> </td>
+      <td>^^</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="table">Table</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Stage</th>
+      <th style="text-align: right">Direct Products</th>
+      <th style="text-align: right">ATP Yields</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">Glycolysis</td>
+      <td style="text-align: right">2 ATP</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: right">^^</td>
+      <td style="text-align: right">2 NADH</td>
+      <td style="text-align: right">3–5 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Pyruvaye oxidation</td>
+      <td style="text-align: right">2 NADH</td>
+      <td style="text-align: right">5 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Citric acid cycle</td>
+      <td style="text-align: right">2 ATP</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: right">^^</td>
+      <td style="text-align: right">6 NADH</td>
+      <td style="text-align: right">15 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">^^</td>
+      <td style="text-align: right">2 FADH</td>
+      <td style="text-align: right">3 ATP</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">30–32 ATP</td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>:             Here’s a Inline Attribute Lists example                 :</th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>:       :</td>
+      <td>:  &lt;div style="color: red;"&gt; &lt; Normal HTML Block &gt; &lt;/div&gt; :</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>^^</td>
+      <td>Red    {: .cls style=”background: orange” }</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>^^ IALs</td>
+      <td>Green  {: #id style=”background: green; color: white” }</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>^^</td>
+      <td>Blue   {: style=”background: blue; color: white” }</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>^^</td>
+      <td>Black  {: color-style font-style}</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Heading</th>
+      <th>Column 1</th>
+      <th>Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Row 1</td>
+      <td>Apple<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup></td>
+      <td><a href="https://www.youtube.com">Youtube (Home)</a></td>
+    </tr>
+    <tr>
+      <td>Row 2</td>
+      <td>Banana</td>
+      <td><a href="https://www.github.com">Github</a></td>
+    </tr>
+    <tr>
+      <td>Row 3 (merged)</td>
+      <td>Blueberry</td>
+      <td><a href="https://www.google.com">Google</a> *****  <a href="https://www.github.com">Github</a></td>
+    </tr>
+    <tr>
+      <td>^^</td>
+      <td><a href="https://example.com">Plum</a></td>
+      <td>Raspberry <img src="https://jekyllrb.com/img/octojekyll.png" alt="example" title="An exemplary image" /></td>
+    </tr>
+    <tr>
+      <td>Row 4</td>
+      <td><a href="https://www.google.com">https://www.google.com</a></td>
+      <td><a href="https://www.google.com" target="_blank">test</a></td>
+    </tr>
+    <tr>
+      <td>^^</td>
+      <td>^^ <a href="https://www.youtube.com">https://www.youtube.com</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Row 5</td>
+      <td><a href="https://www.google.com">https://www.google.com</a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://www.google.com">https://www.google.com</a></p>
+
+<p>Not in table: <code class="language-plaintext highlighter-rouge">&lt;Mail Gateway&gt;</code></p>
+
+<p>In table:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Decision Point</th>
+      <th>Design Decision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Authoritative DNS MX Record</td>
+      <td><code class="language-plaintext highlighter-rouge">&lt;Mail Gateway&gt;</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>9 * 9</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>1 * 1 = 1</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1 * 2 = 2</td>
+      <td>2 * 2 = 4</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1 * 3 = 3</td>
+      <td>2 * 3 = 6</td>
+      <td>3 * 3 = 9</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1 * 3 = 3</td>
+      <td>2 * 3 = 6</td>
+      <td>3 * 4 = 12</td>
+      <td>4 * 4 = 16</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="emoji">Emoji</h2>
+<p>:+1:</p>
+
+<h2 id="mathjax">Mathjax</h2>
+
+<p>$\LaTeX{}$</p>
+
+<h2 id="plantuml">PlantUML</h2>
+
+<p>@startuml
+Bob -&gt; Alice : hello
+@enduml</p>
+
+<h2 id="mermaid">Mermaid</h2>
+
+<pre><code class="language-mermaid!">graph LR
+  concurrent.futures ---&gt;| on top of | threading
+  concurrent.futures ---&gt;| on top of | multiprocessing
+  threading ---&gt;| on top of | \_thread
+  click concurrent.futures "https://docs.python.org/3.9/library/concurrent.futures.html" _blank
+</code></pre>
+
+<h2 id="video">Video</h2>
+
+<p><img src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" alt="Flower" /></p>
+
+<p><img src="//www.youtube.com/watch?v=Ptk_1Dc2iPY" alt="" /></p>
+
+<p><img src="https://avatars3.githubusercontent.com/hubot?v=3&amp;s=40" alt="" /></p>
+
+<p><a href="//www.youtube.com/watch?v=Ptk_1Dc2iPY">[video link]</a></p>
+
+<h2 id="audio">Audio</h2>
+
+<p><a href="https://hpr.dogphilosophy.net/test/">HTML5 Audio Formats Test</a></p>
+
+<p>Opus Audio (“.opus”):</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/opus.opus" alt="" /></p>
+
+<p>“MP3” file (“.mp3”) :</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/mp3.mp3" alt="" /></p>
+
+<p>WebM Audio (“.weba”):</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/weba.weba" alt="" /></p>
+
+<p>WebMv2 Audio (“.webm”):</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/webmv2.webm" alt="" /></p>
+
+<p>Ogg Vorbis (“.ogg”) :</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/ogg.ogg" alt="" /></p>
+
+<p>“wave” file(“.wav”) :</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/wav.wav" alt="" /></p>
+
+<p>FLAC file (“.flac”) :</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/flac.flac" alt="" /></p>
+
+<p>CAF file (“.caf”) :</p>
+
+<p><img src="https://hpr.dogphilosophy.net/test/cafopus.caf" alt="" /></p>
+
+<p>Spotify Podcast:</p>
+
+<p><img src="https://open.spotify.com/episode/2sXXGexCXPhGsdf9l99Q73?si=717c6671590745b3" alt="" /></p>
+
+<h2 id="special-media-links">Special media links</h2>
+
+<p>Local video file (“.webm”):</p>
+
+<p><img src="/assets/videos/devstories.webm" alt="" /></p>
+
+<p>Video with custom thumbnail:</p>
+
+<p><a href="https://www.youtube.com/watch?v=kCHGDRHZ4eU"><img src="https://i.imgur.com/bc9HOJU.png" alt="w:1100" /></a></p>
+
+<p>Tips:</p>
+<ul>
+  <li>Use pipes (<code class="language-plaintext highlighter-rouge">|</code>) to delineate columns, and dashes to delineate the header row from the rest of the table.</li>
+  <li>Spacing doesn’t matter to the markdown processor, any extra white space is removed, but it can really help with readability.
+The two markdown examples below both create this table.</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Use pipes <code class="language-plaintext highlighter-rouge">(</code></td>
+      <td><code class="language-plaintext highlighter-rouge">)</code> to delineate columns, and dashes to delineate the header row from the rest of the table.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Footnote <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>NoVarYe</name><email>jidijam.olk@outlook.com</email></author><category term="development" /><category term="markdown" /><category term="test" /><summary type="html"><![CDATA[Put the math expression within $…$: \(\LaTeX{}\) $\Pi$ $ a * b = c ^ b $ $ 2^{\frac{n-1}{3}} $ $ \int_a^b f(x)\,dx. $ \( \int_a^b f(x)\,dx. \) \[\begin{cases} \text{if true}\ foo \\ \text{if false}\ bar \end{cases}\] $ \rho {\rm{FOD}} = \sum\limits{\sigma ,i} {(\delta _1 - \delta _2 n_i^\sigma ) \phi _i^\sigma ({\bf{r}}) ^2} $ \[\rho {\rm{FOD}} = \sum\limits{\sigma ,i} {(\delta _1 - \delta _2 n_i^\sigma )|\phi _i^\sigma ({\bf{r}})|^2}\] Here is a liquid filter. `escape inline code` inline code Here is a capture block. 100 / 3 = 33 :+1: :bolivia: \1. 21312 \2. 21312 \4. 4214 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 import networkx as nx from collections import Counter diagrams = defaultdict(list) particle_counts = defaultdict(Counter) for (a, b), neighbors in common_neighbors.items(): # Build up the graph of connections between the # common neighbors of a and b. g = nx.Graph() for i in neighbors: for j in set(nl.point_indices[ nl.query_point_indices == i]).intersection(neighbors): g.add_edge(i, j) # Define the identifiers for a CNA diagram: # The first integer is 1 if the particles are bonded, otherwise 2 # The second integer is the number of shared neighbors # The third integer is the number of bonds among shared neighbors # The fourth integer is an index, just to ensure uniqueness of diagrams diagram_type = 2-int(b in nl.point_indices[nl.query_point_indices == a]) key = (diagram_type, len(neighbors), g.number_of_edges()) # If we've seen any neighborhood graphs with this signature, # we explicitly check if the two graphs are identical to # determine whether to save this one. Otherwise, we add # the new graph immediately. if key in diagrams: isomorphs = [nx.is_isomorphic(g, h) for h in diagrams[key]] if any(isomorphs): idx = isomorphs.index(True) else: diagrams[key].append(g) idx = diagrams[key].index(g) else: diagrams[key].append(g) idx = diagrams[key].index(g) cna_signature = key + (idx,) particle_counts[a].update([cna_signature]) 1 2 3 4 5 6 7 8 9 10 void insert(const char* key) { if (*key == '\0') { finish = true; } else { int idx = *key - 'A'; if (!next[idx]) next[idx] = new Trie(); next[idx]-&gt;insert(key + 1); } } 1 p ":+1:" 1 2 3 4 + 'user_exists' =&gt; 'SELECT EXISTS(SELECT 1 FROM table WHERE username = (:username || \'@sample'))', + 'get_users' =&gt; 'SELECT split_part(username, \'@\', 1) FROM table WHERE (username ILIKE :search) OR (name ILIKE :search)', + 'get_password_hash_for_user' =&gt; 'SELECT split_part(password, \'{CRYPT}\', 2) FROM table WHERE username = (:username || \'@sample\')', + 'set_password_hash_for_user' =&gt; 'UPDATE table SET password = \'{CRYPT}\' || :new_password_hash WHERE username = (:username || \'@sample\')', Reload the Nginx: 1 $ sudo nginx -s reload : : : : \(O_3 + C_2H_2 \rightarrow\) :     : \(O_3 + C_2H_4 \rightarrow\) :     : : : ^^ Method : ^^ \(\lambda^a\) vdW TS cycloadd. vdW TS cycloadd. ^^ MAE \(\lambda\)-tPBE 0.20 -0.40 7.69 -68.00 -1.86 4.87 -57.57 1.29 MC1H-PBE \(^b\) 0.25 -1.08 3.66 -70.97 -1.25 0.13 -61.26 3.35 Reference values \(^c\) ——— -1.90 7.74 -63.80 -1.94 3.37 -57.15 ——— \(^a\) The optimal mixing parameter.\(\~\) \(^b\) From Ref. .\(\~\) \(^c\) Best estimates from Ref. .                 1 2 3 4 5 6 7 spancell1   spancell2   cell spancell3   ^^ spancell1   spancell2   cell spancell3   (0,0) (0,1) (0,2) (0,3)   (1,0)   ^^ (1,3)   (0,0) (0,1) (0,2) (0,3)   (1,0)     (1,3)   (0,0) (0,1) (0,2) (0,3)   (1,0)     ^^   (0,0) (0,1) (0,2) (0,3) \ (1,0)     ^^   Table Stage Direct Products ATP Yields Glycolysis 2 ATP   ^^ 2 NADH 3–5 ATP Pyruvaye oxidation 2 NADH 5 ATP Citric acid cycle 2 ATP   ^^ 6 NADH 15 ATP ^^ 2 FADH 3 ATP 30–32 ATP     : Here’s a Inline Attribute Lists example :       : : : &lt;div style="color: red;"&gt; &lt; Normal HTML Block &gt; &lt;/div&gt; :     ^^ Red {: .cls style=”background: orange” }     ^^ IALs Green {: #id style=”background: green; color: white” }     ^^ Blue {: style=”background: blue; color: white” }     ^^ Black {: color-style font-style}     Heading Column 1 Column 2 Row 1 Apple1 Youtube (Home) Row 2 Banana Github Row 3 (merged) Blueberry Google ***** Github ^^ Plum Raspberry Row 4 https://www.google.com test ^^ ^^ https://www.youtube.com   Row 5 https://www.google.com   https://www.google.com Not in table: &lt;Mail Gateway&gt; In table: Decision Point Design Decision Authoritative DNS MX Record &lt;Mail Gateway&gt; 9 * 9 1 * 1 = 1       1 * 2 = 2 2 * 2 = 4     1 * 3 = 3 2 * 3 = 6 3 * 3 = 9   1 * 3 = 3 2 * 3 = 6 3 * 4 = 12 4 * 4 = 16 Emoji :+1: Mathjax $\LaTeX{}$ PlantUML @startuml Bob -&gt; Alice : hello @enduml Mermaid graph LR concurrent.futures ---&gt;| on top of | threading concurrent.futures ---&gt;| on top of | multiprocessing threading ---&gt;| on top of | \_thread click concurrent.futures "https://docs.python.org/3.9/library/concurrent.futures.html" _blank Video [video link] Audio HTML5 Audio Formats Test Opus Audio (“.opus”): “MP3” file (“.mp3”) : WebM Audio (“.weba”): WebMv2 Audio (“.webm”): Ogg Vorbis (“.ogg”) : “wave” file(“.wav”) : FLAC file (“.flac”) : CAF file (“.caf”) : Spotify Podcast: Special media links Local video file (“.webm”): Video with custom thumbnail: Tips: Use pipes (|) to delineate columns, and dashes to delineate the header row from the rest of the table. Spacing doesn’t matter to the markdown processor, any extra white space is removed, but it can really help with readability. The two markdown examples below both create this table. Use pipes ( ) to delineate columns, and dashes to delineate the header row from the rest of the table. Footnote &#8617;]]></summary></entry><entry><title type="html">HMI!</title><link href="https://no4var2ye.github.io/design/2024/09/06/HMI.html" rel="alternate" type="text/html" title="HMI!" /><published>2024-09-06T00:00:00+08:00</published><updated>2024-09-06T00:00:00+08:00</updated><id>https://no4var2ye.github.io/design/2024/09/06/HMI</id><content type="html" xml:base="https://no4var2ye.github.io/design/2024/09/06/HMI.html"><![CDATA[<h1 id="template-of-blogs">Template of Blogs</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Author: NoVarYe</td>
+      <td>Date: September 06, 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>硬件</p>
+
+<p>系统负载</p>
+
+<h2 id="terms">Terms</h2>
+
+<h2 id="reference">Reference</h2>]]></content><author><name>NoVarYe</name></author><category term="design" /><summary type="html"><![CDATA[Template of Blogs Author: NoVarYe Date: September 06, 2024 硬件 系统负载 Terms Reference]]></summary></entry><entry><title type="html">Filmming Mission</title><link href="https://no4var2ye.github.io/design/2024/09/03/video-plan.html" rel="alternate" type="text/html" title="Filmming Mission" /><published>2024-09-03T00:00:00+08:00</published><updated>2024-09-03T00:00:00+08:00</updated><id>https://no4var2ye.github.io/design/2024/09/03/video-plan</id><content type="html" xml:base="https://no4var2ye.github.io/design/2024/09/03/video-plan.html"><![CDATA[<h1 id="template-of-blogs">Template of Blogs</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Author: NoVarYe</td>
+      <td>Date: September 03, 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>对抗：矛盾、抽象</p>
+
+<p>逻辑：
+是什么——为什么——希望怎样——怎么做——会产生什么样的影响</p>
+
+<p>人物：
+现实自我 + 理想自我 + 镜中自我
+是什么   + 希望怎样 + 产生什么样的影响</p>
+
+<p>寻找值得拍摄的对象</p>
+
+<p>故事的独特性 和 普遍性</p>
+
+<p>一次选择 一次艰难的的选择 一次出乎意料的决定</p>
+
+<p>情感和冲突：</p>
+
+<p>挑可以帮助推动叙事并维持观众的注意力</p>
+
+<p>原生家庭的阻力、爱人的不解、信任与背叛、希望与破灭、刻板印象如何突破、生命的价值和意义、永恒与瞬间</p>
+
+<p>人物的真实性:
+人们是否愿意在镜头前展示自己的真实面目
+真实性是纪录片的核心</p>
+
+<h2 id="赏析二更-男生永远不会懂的终极难题">赏析《二更 男生永远不会懂的终极难题》</h2>
+
+<ol>
+  <li>内容编排的底层逻辑</li>
+</ol>
+
+<p>底层逻辑在于挖掘男女思维方式、行为习惯的不同，以具体的场景和问题来展现这种差异，从而引发观众的共鸣和思考。同时，也通过一些幽默的表现手法，缓解可能产生的紧张氛围。最终回归视频目的，品牌植入</p>
+
+<ol>
+  <li>内容推进手段</li>
+</ol>
+
+<p>通过男女衣物问题的引入，和中途幽默的根据男人对自己女朋友身材的印象，在穿上衣服后，能否正确分辨。中途强调，衣物对女性身材的修饰，来突出强化主题。</p>
+
+<ol>
+  <li>景别</li>
+</ol>
+
+<p>少量全景和特写
+刚开始采用了全景，展示整个场景的氛围和环境，为故事的发生提供背景。</p>
+
+<p>中景和近景为主
+在作品中，中景和近景的运用较为频繁。中景展现人物的动作和表情，使观众更好地理解人物的情感和态度。近景突出人物的面部表情，能够传达出细腻的情感变化。</p>
+
+<ol>
+  <li>商业元素如何渗透的
+作品中通过衣物的试穿，巧妙地突出主题”男生永远不会懂的终极难题“，在最后深化了品牌”优形丹宁”。</li>
+</ol>
+
+<h2 id="新闻">新闻</h2>
+
+<p>新闻三要素 NEW TRUTH COMMUNICATION
+NTC
+5W Who When Where What Why How</p>
+
+<h3 id="赏析-实拍美国抗议现场街坊纽约示威者">赏析 《实拍美国抗议现场，街坊纽约示威者！》</h3>
+
+<p>标题</p>
+
+<p>实拍 美国 抗议 现场，街坊 纽约 示威者 !</p>
+
+<p>导语</p>
+
+<p>消息的开头,它以及其简洁的文字, 写出消息中最重要、最精彩的事实,提纲挈领,牵引全文,吸引读者.</p>
+
+<p>玛丽莲曼森</p>
+
+<h2 id="terms">Terms</h2>
+
+<blockquote>
+  <p>自我意识：镜中自我、现实自我、理想自我</p>
+
+</blockquote>
+
+<p>后现代主义在纪录片的表现形式</p>
+
+<p>叙事结构：采用线性叙事或非线性叙事（如闪回、倒叙）相结合的方式，逐步揭示教练的过去、现在与未来，使观众在时间的流转中感受到人物的成长与变化。
+真实与虚构：纪录片的真实性是其核心特征，但也存在一定程度的虚构，如剪辑、音乐、解说等手段的运用，以及对现实事件的解读和呈现，都会对观众产生一定的影响。
+视角：纪录片的视角决定了其叙事方式和观众的感知，不同的视角会呈现出不同的故事效果，如主观视角、客观视角、第一人称视角等。
+文本：</p>
+
+<h2 id="reference">Reference</h2>
+
+<h3 id="陈为军">陈为军</h3>
+
+<ol>
+  <li>《好死不如赖活着》
+ 《好死不如赖活着》是一部由陈为军执导的纪录片，于 2003 年在圣丹斯电影节上映，片长 88 分钟 。<br />
+ 这部纪录片直击 “艾滋病” 这一敏感而恐怖的话题，以跟踪拍摄被感染的马深义一家为线索，展现了这个家庭面对生死的生活状态 。<br />
+ 影片内容从 2001 年导演陈为军进入马深义家的初夏开始。当时，马深义的妻子雷妹已发病，身体瘦弱，在床上痛苦哭喊，时而笑起来，对导演的呼唤也没有反应，马深义在旁叹气，他们的二女儿则一脸茫然地坐在门外，不知母亲和自己所患何病。一家五口除大女儿健康外，其他四人都患有艾滋病，小儿子马占槽才几个月大，就已面临已知的死亡。<br />
+ 片中，雷妹清醒后会点香向灶王爷赎罪、磕头，她希望能熬过冬天，但最终没能熬到。雷妹去世后，马深义独自辛苦养育孩子们，看着小儿子学会走路、叫 “爸爸”，大女儿学习成绩优秀，他心里酸楚多于快乐。为了孩子，他甚至不顾面子去找县长要救济款。<br />
+ 纪录片按时间顺序分为 “夏至”“大暑”“立秋”“中秋”“霜降”“立冬”“冬至”“春节” 八个部分，记录了大半年间这个家庭的诸多变故 。例如在 “中秋” 段落，孩子们在玉米堆玩耍，画面呈现出温暖快乐的氛围，与现实形成鲜明对比；“霜降” 时雷妹去世；“冬至” 天下雪，马深义给雷妹上百日坟，画面基本呈黑白色调 。<br />
+ 影片没有过多的艺术手法和旁白，仅在少数地方进行了艺术化处理，转场也较为简单，多是淡入淡出、黑屏过渡并加上小标题，但却真实地展现了这个家庭的苦难与无奈，让观众深刻感受到艾滋病给他们带来的痛苦和悲哀 。同时，也展现了马深义作为父亲的责任与担当，以及孩子们在困境中依然保持的天真与坚强 。它不仅让人们看到了艾滋病家庭的真实生活，也引发了对于艾滋病防治、社会关爱等问题的思考。</li>
+  <li>2007《请为我投票》
+ 《请投我一票》是由陈为军执导的纪录电影，于 2007 年在多伦多电影节上映 。
+ 影片记录了湖北武汉市常青第一小学一个班级的班长竞选过程。这次竞选的三位候选人分别是：<br />
+ 成成：大眼睛小胖子，比较出色。他站上讲台展示才艺时从容自信，能笼络选民、与大家打成一片，幽默地模仿范伟 “缘分啊” 表现出他的亲民与社交能力，与对手小菲辩论时咄咄逼人、针锋相对，把对方逼问得哑口无言，足见其反应灵敏、头脑机智且情商极高。他还很善于搞权术，经常对选民及对手威逼利诱。<br />
+ 罗雷：信奉 “以暴制暴” 理念，经常打人，但却并无良策。他最后的胜出完全是由于他父母的计策一两次贿选。通过请全体选民搭乘轻轨游览市区、给全体选民送节日贺卡来博得小朋友选民们的支持。<br />
+ 小菲：是个典型的成绩优异的乖乖女，正直、善良，从一开始就似乎比两个男孩子 “晚熟” 很多。当两个对手已经开始谋划竞争时，她还停留在 “友好竞争” 的美好想象里，对即将加入的纷争显得茫然及缺少准备，使得她在竞争的刚一开始就处于相当的劣势。当起哄、诽谤的声音轰然而来的时候，小菲无措地哭了，她甚至不知道发生了什么。<br />
+ 在竞选过程中，有互相挑毛病的辩论，有舆论造势，也有诋毁，甚至出现了 “贿选” 等行为。孩子们在无意识中上演了许多叫人 “如坐针毡” 的丑陋戏码。这场儿童世界的模拟选举，被武汉电视台的制片人陈为军拍摄成纪录片，《华盛顿邮报》称其为 “关于一群 8 岁大孩子的…… 令人如坐针毡的政治戏剧”。<br />
+ 这部纪录片通过孩子们的竞选活动，展现了人性的复杂以及成人世界对孩子的影响，引发了人们对于教育、权力、民主等诸多问题的思考。它以一种独特的视角揭示了现实生活中的一些现象，让观众在观看过程中不断反思。由于涉及敏感题材，该片未能在中国大陆上映。</li>
+  <li>2017《生门》</li>
+</ol>]]></content><author><name>NoVarYe</name></author><category term="design" /><category term="video" /><summary type="html"><![CDATA[Template of Blogs Author: NoVarYe Date: September 03, 2024 对抗：矛盾、抽象 逻辑： 是什么——为什么——希望怎样——怎么做——会产生什么样的影响 人物： 现实自我 + 理想自我 + 镜中自我 是什么 + 希望怎样 + 产生什么样的影响 寻找值得拍摄的对象 故事的独特性 和 普遍性 一次选择 一次艰难的的选择 一次出乎意料的决定 情感和冲突： 挑可以帮助推动叙事并维持观众的注意力 原生家庭的阻力、爱人的不解、信任与背叛、希望与破灭、刻板印象如何突破、生命的价值和意义、永恒与瞬间 人物的真实性: 人们是否愿意在镜头前展示自己的真实面目 真实性是纪录片的核心 赏析《二更 男生永远不会懂的终极难题》 内容编排的底层逻辑 底层逻辑在于挖掘男女思维方式、行为习惯的不同，以具体的场景和问题来展现这种差异，从而引发观众的共鸣和思考。同时，也通过一些幽默的表现手法，缓解可能产生的紧张氛围。最终回归视频目的，品牌植入 内容推进手段 通过男女衣物问题的引入，和中途幽默的根据男人对自己女朋友身材的印象，在穿上衣服后，能否正确分辨。中途强调，衣物对女性身材的修饰，来突出强化主题。 景别 少量全景和特写 刚开始采用了全景，展示整个场景的氛围和环境，为故事的发生提供背景。 中景和近景为主 在作品中，中景和近景的运用较为频繁。中景展现人物的动作和表情，使观众更好地理解人物的情感和态度。近景突出人物的面部表情，能够传达出细腻的情感变化。 商业元素如何渗透的 作品中通过衣物的试穿，巧妙地突出主题”男生永远不会懂的终极难题“，在最后深化了品牌”优形丹宁”。 新闻 新闻三要素 NEW TRUTH COMMUNICATION NTC 5W Who When Where What Why How 赏析 《实拍美国抗议现场，街坊纽约示威者！》 标题 实拍 美国 抗议 现场，街坊 纽约 示威者 ! 导语 消息的开头,它以及其简洁的文字, 写出消息中最重要、最精彩的事实,提纲挈领,牵引全文,吸引读者. 玛丽莲曼森 Terms 自我意识：镜中自我、现实自我、理想自我 后现代主义在纪录片的表现形式 叙事结构：采用线性叙事或非线性叙事（如闪回、倒叙）相结合的方式，逐步揭示教练的过去、现在与未来，使观众在时间的流转中感受到人物的成长与变化。 真实与虚构：纪录片的真实性是其核心特征，但也存在一定程度的虚构，如剪辑、音乐、解说等手段的运用，以及对现实事件的解读和呈现，都会对观众产生一定的影响。 视角：纪录片的视角决定了其叙事方式和观众的感知，不同的视角会呈现出不同的故事效果，如主观视角、客观视角、第一人称视角等。 文本： Reference 陈为军 《好死不如赖活着》 《好死不如赖活着》是一部由陈为军执导的纪录片，于 2003 年在圣丹斯电影节上映，片长 88 分钟 。 这部纪录片直击 “艾滋病” 这一敏感而恐怖的话题，以跟踪拍摄被感染的马深义一家为线索，展现了这个家庭面对生死的生活状态 。 影片内容从 2001 年导演陈为军进入马深义家的初夏开始。当时，马深义的妻子雷妹已发病，身体瘦弱，在床上痛苦哭喊，时而笑起来，对导演的呼唤也没有反应，马深义在旁叹气，他们的二女儿则一脸茫然地坐在门外，不知母亲和自己所患何病。一家五口除大女儿健康外，其他四人都患有艾滋病，小儿子马占槽才几个月大，就已面临已知的死亡。 片中，雷妹清醒后会点香向灶王爷赎罪、磕头，她希望能熬过冬天，但最终没能熬到。雷妹去世后，马深义独自辛苦养育孩子们，看着小儿子学会走路、叫 “爸爸”，大女儿学习成绩优秀，他心里酸楚多于快乐。为了孩子，他甚至不顾面子去找县长要救济款。 纪录片按时间顺序分为 “夏至”“大暑”“立秋”“中秋”“霜降”“立冬”“冬至”“春节” 八个部分，记录了大半年间这个家庭的诸多变故 。例如在 “中秋” 段落，孩子们在玉米堆玩耍，画面呈现出温暖快乐的氛围，与现实形成鲜明对比；“霜降” 时雷妹去世；“冬至” 天下雪，马深义给雷妹上百日坟，画面基本呈黑白色调 。 影片没有过多的艺术手法和旁白，仅在少数地方进行了艺术化处理，转场也较为简单，多是淡入淡出、黑屏过渡并加上小标题，但却真实地展现了这个家庭的苦难与无奈，让观众深刻感受到艾滋病给他们带来的痛苦和悲哀 。同时，也展现了马深义作为父亲的责任与担当，以及孩子们在困境中依然保持的天真与坚强 。它不仅让人们看到了艾滋病家庭的真实生活，也引发了对于艾滋病防治、社会关爱等问题的思考。 2007《请为我投票》 《请投我一票》是由陈为军执导的纪录电影，于 2007 年在多伦多电影节上映 。 影片记录了湖北武汉市常青第一小学一个班级的班长竞选过程。这次竞选的三位候选人分别是： 成成：大眼睛小胖子，比较出色。他站上讲台展示才艺时从容自信，能笼络选民、与大家打成一片，幽默地模仿范伟 “缘分啊” 表现出他的亲民与社交能力，与对手小菲辩论时咄咄逼人、针锋相对，把对方逼问得哑口无言，足见其反应灵敏、头脑机智且情商极高。他还很善于搞权术，经常对选民及对手威逼利诱。 罗雷：信奉 “以暴制暴” 理念，经常打人，但却并无良策。他最后的胜出完全是由于他父母的计策一两次贿选。通过请全体选民搭乘轻轨游览市区、给全体选民送节日贺卡来博得小朋友选民们的支持。 小菲：是个典型的成绩优异的乖乖女，正直、善良，从一开始就似乎比两个男孩子 “晚熟” 很多。当两个对手已经开始谋划竞争时，她还停留在 “友好竞争” 的美好想象里，对即将加入的纷争显得茫然及缺少准备，使得她在竞争的刚一开始就处于相当的劣势。当起哄、诽谤的声音轰然而来的时候，小菲无措地哭了，她甚至不知道发生了什么。 在竞选过程中，有互相挑毛病的辩论，有舆论造势，也有诋毁，甚至出现了 “贿选” 等行为。孩子们在无意识中上演了许多叫人 “如坐针毡” 的丑陋戏码。这场儿童世界的模拟选举，被武汉电视台的制片人陈为军拍摄成纪录片，《华盛顿邮报》称其为 “关于一群 8 岁大孩子的…… 令人如坐针毡的政治戏剧”。 这部纪录片通过孩子们的竞选活动，展现了人性的复杂以及成人世界对孩子的影响，引发了人们对于教育、权力、民主等诸多问题的思考。它以一种独特的视角揭示了现实生活中的一些现象，让观众在观看过程中不断反思。由于涉及敏感题材，该片未能在中国大陆上映。 2017《生门》]]></summary></entry><entry><title type="html">影视导演——引论</title><link href="https://no4var2ye.github.io/design/video/2024/08/27/record.html" rel="alternate" type="text/html" title="影视导演——引论" /><published>2024-08-27T00:00:00+08:00</published><updated>2024-08-27T00:00:00+08:00</updated><id>https://no4var2ye.github.io/design/video/2024/08/27/record</id><content type="html" xml:base="https://no4var2ye.github.io/design/video/2024/08/27/record.html"><![CDATA[<h1 id="影视导演">影视导演</h1>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Author: NoVarYe</td>
+        <td>Date: Tue, August  27, 2024</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<h2 id="概念介绍">概念介绍</h2>
+
+<p><strong>记录片:</strong></p>
+
+<ul>
+  <li>现在进行时 真实 客观</li>
+  <li>展现生活原样, 排斥虚构 摆拍</li>
+  <li>长镜头或者同期声</li>
+  <li>主题意识要隐藏</li>
+</ul>
+
+<p><strong>专题片:</strong></p>
+
+<ul>
+  <li>现在时、过去式</li>
+  <li>对社会生活的 一方面进行深入报道，内容集中， 形式多样</li>
+  <li>多种艺术手段</li>
+  <li>允许直接阐明观点</li>
+  <li>介于电视新闻 和 电视艺术, 既有新闻的真实性，又有艺术的审美力</li>
+</ul>
+
+<h2 id="纪录片贵州水族马尾绣赏析">纪录片——《贵州水族马尾绣》赏析</h2>
+
+<p>历史背景
+制作流程
+成本应用 寓意
+传承人 未来发展</p>
+
+<p>空镜</p>
+
+<p>视<strong>听</strong></p>
+
+<p>马尾绣 不会动，意味着什么</p>
+
+<p>如何动起来</p>
+
+<h3 id="影片难点">影片难点</h3>
+
+<p>静态和听觉的缺陷</p>
+
+<p>采访来弥补历史的缺失，现存物</p>
+
+<p>非物质 文化遗产</p>
+
+<p>人物角度</p>
+
+<p>人物，代表人物</p>
+<ol>
+  <li>官方</li>
+  <li>个人</li>
+  <li>传承人</li>
+</ol>
+
+<p>传承人一般都 在结尾处，出现物质文化遗产</p>
+
+<p>开场30s 包主要对象、事件内容介绍清楚 &lt;/br&gt;
+被摄对象存在的难点（“硬伤”）：虽有色彩，但静态试听语言要求 视觉动态，听觉丰富&lt;/br&gt;
+留存材料少：过去——现在——未来(传承) &lt;/br&gt;
+如何弥补：节庆日 民族特色 欢歌笑语</p>
+
+<h3 id="贵州水族马尾绣分析">《贵州水族马尾绣》分析</h3>
+
+<p>专题片的结构一般较为严通，整体框架清晰。利用解说词丰富补足画面的不足，同时也作为两
+面贯穿的逻依据在底层铺垫。采访像房屋中的梁柱，较规则地支撑起全片，可以看是全片
+下每个小段落的核心或篇章主要内昏的发起点。</p>
+
+<p>本片逻想:</p>
+<ol>
+  <li>宏观描绘引出水族(别:大远景——远景一全景——近景)，起到从宏观风贯到引出具象化人物的作用;</li>
+  <li>具象化人物出现，先讲解民族特性再引出主要内容马尾绣(中先穿插了节日，以在片子开头调动气纸):</li>
+  <li>通过采访，进一步深入、全面地讲解马尾绣的历史文化(画面:精美特写，人物动作–此股强酒镜头的叙事功能)</li>
+  <li>中后程提升本片高度，提出并进一步强调传承(传与承=老人与小孩、以及现在正在开展文化传播的传承人):</li>
+  <li>尾处，节日民俗与马尾绣穿插，进一步演染民族内通(四面:呼应开头节日场面，马尾铁特
+写，大场最和远景出现，结尾)</li>
+</ol>
+
+<h2 id="课程实践侯官村">课程实践——侯官村</h2>
+
+<h2 id="纪实类短视频的定义">纪实类短视频的定义</h2>
+
+<h3 id="纪录-纪实">纪录 纪实</h3>
+
+<p>纪录
+定义：纪录通常指对某些事件、现象或过程的详细记录。这种记录可以是文字、音频、视频或其他形式的资料。纪录通常强调的是记录过程本身，更多的是关于信息的保存。</p>
+
+<p>用途：</p>
+
+<p>纪录片：以影像的方式记录真实事件或情况，通常带有一定的艺术加工和叙事结构，旨在引发观众的思考或情感共鸣。
+个人纪录：例如个人日记、备忘录等，记录个人生活或事件。
+纪实
+定义：纪实侧重于通过真实的记录来展示和反映现实生活中的事件或人物。它不仅仅是记录的过程，更加关注如何真实、客观地反映实际情况，通常具有较强的现实主义色彩。</p>
+
+<p>用途：</p>
+
+<p>纪实文学：通过详细描写和叙述真实事件和人物，探讨社会问题或人性。
+纪实摄影：以摄影的方式捕捉和表现现实生活中的真实瞬间。
+区别
+侧重点：</p>
+
+<p>纪录更多关注信息的记录和保存。
+纪实则注重真实地反映现实生活中的状况，往往带有一定的分析和深度。
+表现形式：</p>
+
+<p>纪录可以是多种形式的记录，未必有深层次的解读。
+纪实通常强调对真实情况的深刻观察和反映，表现出强烈的现实主义风格。
+目标：</p>
+
+<p>纪录的目标是保存信息和数据。
+纪实的目标是通过真实的描述和展示来引发观众的思考或感受。</p>
+
+<h2 id="新闻纪实类">新闻纪实类</h2>
+
+<h3 id="赏析二更-打开折叠人生">赏析《二更 打开折叠人生》</h3>
+
+<p>内容编排的底层逻辑</p>
+
+<p>内容推进的手段</p>
+
+<p>情感</p>
+
+<p>新闻素材的处理方式</p>
+
+<h3 id="赏析天问一号发射成功火星我们来了">赏析《天问一号发射成功——火星我们来了》</h3>
+
+<p>时间
+解说+描述性画面+采访</p>
+
+<p>内容推进的手段:</p>
+<ol>
+  <li>
+    <p>采用了时间线推进。
+通过明确的时间来推进新闻内容，从天文一号发射开始的前12小时，每间隔一段时间，介绍下火箭发射的进程，最后报道了发射成功的结果。这种推进方式使得新闻内容更加清晰</p>
+  </li>
+  <li>
+    <p>采用了主题推进：
+通过介绍技术的进步。在报道过程中，穿插了多项关键技术的突破，如火星制动捕获、进入/下降/着陆、长期自主管理、远距离测控通信、火星表面巡视等，这些技术突破不仅展示了中国深空探测能力的显著提升，也增强了文章的专业性。</p>
+  </li>
+</ol>
+
+<p>3.采用了民众视角：
+在报道中，穿插了民众的情感反应，如“我国首次火星探测任务天问一号发射成功，引发了社会各界的热烈关注和祝贺”，“网友纷纷表示，中国航天事业的发展令人振奋，为国家的科技实力感到自豪”，这些民众的情感反应，使得新闻内容更加生动。最后以”火星我们来了“结尾，增强了新闻的情感共鸣。</p>
+
+<p>素材编辑的逻辑：</p>
+
+<ol>
+  <li>
+    <p>素材的有效性，真实性：
+首先为了保证新闻的有效性，选取了权威的新闻素材。</p>
+  </li>
+  <li>
+    <p>素材的多样性：
+不仅包含了火星探测任务的发射过程，还包含了火星探测任务的技术突破，以及民众的情感反应，使得新闻内容更加丰富。</p>
+  </li>
+  <li>
+    <p>素材的时效性：
+新闻内容的时效性很强，及时报道了火星探测任务的发射成功，增强了新闻的实时性。</p>
+  </li>
+</ol>
+
+<p>时效性与故事性：</p>
+
+<ol>
+  <li>时效性：
+通过倒计时</li>
+</ol>
+
+<p>该火箭发射的过程，</p>
+
+<p>不存在补拍
+视频的框架</p>
+
+<p>采访中的提问：<br />
+针对不同的人群采取了不同的问答方式</p>
+
+<p>虽然在报道的过程中，没有记者采访的过程，但是，可以通过报道的内容，推测出记者在采访中可能会提出的问题类型。</p>
+
+<p>问题类型主要分为：</p>
+
+<ol>
+  <li>
+    <p>开放式问题
+开放式问题旨在引导受访者自由表达想法、感受和经历，不限制答案的范围。</p>
+  </li>
+  <li>
+    <p>封闭式问题
+封闭式问题通常要求受访者从给定的选项中选择答案，或给出简短的肯定/否定回答。</p>
+  </li>
+  <li>
+    <p>引导式问题
+引导式问题通过预设的框架或提示来引导受访者的回答，有助于聚焦讨论。</p>
+  </li>
+  <li>
+    <p>具体性问题
+具体性问题针对具体细节、事件或情境进行提问，有助于获取详细信息。</p>
+  </li>
+</ol>
+
+<p>对于火箭发射过程中的具体细节。大致推测可能会采用具体性问题，如“火箭发射的过程中，有哪些关键技术突破？”，“火星探测任务的发射过程中，有哪些难点？”</p>
+
+<ol>
+  <li>
+    <p>追问
+追问是在受访者回答后进一步提问，以获取更多信息、澄清观点或深入探讨。</p>
+  </li>
+  <li>
+    <p>假设性问题</p>
+  </li>
+</ol>
+
+<p>假设性问题让受访者基于某种假设情境给出回答，有助于探索未来趋势、策略或可能性。</p>
+
+<p>提问的节奏：</p>
+
+<p>通过控制提问的节奏，可以引导受访者的回答，使得采访内容更加丰富和有序。</p>
+
+<h3 id="采访1">采访1</h3>
+
+<p>我是数媒的大四学生，我需要做一个传承<strong>数媒精神</strong>的片子，
+如何，如何做？</p>
+
+<p>从他嘴里挖出他深受数媒精神的鼓舞，他爱数媒，他会传承数媒精神 发光 发热</p>
+
+<p>你注意，你不但需要这样的话，你还需要一个够激励昂扬的画面</p>
+
+<p>问题的宽泛性</p>
+
+<p>摄像师：</p>
+
+<ol>
+  <li>采集 
+ 画面
+ 光线
+ 人物的站位
+ 人物的表情
+ 视频的播放的平台
+ 构图
+ 画面的稳定性</li>
+</ol>
+
+<p>记者：
+    提问
+        提问的节奏
+        问题的深度</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>情绪
+    采访姿态
+    考虑到被采访人员的情绪
+    有预演问题，让对方适应状态
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>为什么选这个专业
+为什么回想选着方向</p>
+
+<p>学到了什么
+感受
+如果你在这条路上，会不会继续传承</p>
+
+<p>采访的目的性</p>
+
+<p>渐进式提问</p>
+
+<ol>
+  <li>请问您对数媒的理解是什么？</li>
+  <li>您认为数媒精神的核心是什么？</li>
+  <li>您认为数媒精神在当今社会中的意义是什么？</li>
+</ol>
+
+<p>穿插式提问</p>
+
+<p>毕业后的就行</p>
+
+<p>数媒的攻击性比较强</p>
+
+<h3 id="采访2">采访2</h3>
+
+<p>数媒环境的定性
+数媒的发展</p>
+
+<p>氛围是什么</p>
+
+<p>了解到实习的经历</p>
+
+<p>规划，</p>
+
+<p>从中</p>
+
+<p>数媒的理解</p>
+
+<p>鼓励支持</p>
+
+<p>氛围</p>
+
+<ol>
+  <li>采访的氛围</li>
+</ol>
+
+<p>就业</p>
+
+<p>信心</p>
+
+<p>鼓励支持，</p>
+
+<h3 id="采访总结">采访总结</h3>
+
+<p>节奏、
+看着眼睛、看着表情</p>
+
+<h3 id="赏析算命fortune-teller">赏析《算命》Fortune Teller</h3>
+
+<p>徐童</p>
+
+<p>”我是在极端的宿命和草根当中发现了极端的顽强，这两个东西的碰撞“</p>
+
+<p>章回体</p>
+
+<p>如何引出故事
+如何立起人物
+拍摄手法
+章节过渡</p>
+
+<p>历百程 石珍珠</p>
+
+<h3 id="赏析二更-逆袭教练">赏析《二更 逆袭教练》</h3>
+
+<p>内容编排的底层逻辑
+内容推进的手段
+影响影片节奏的元素
+内容类型与受众
+拍摄场地
+出境人物
+场景
+拍摄重点
+拍摄时长
+故事梗概
+主旨</p>
+
+<ol>
+  <li>
+    <p>内容编排的底层逻辑</p>
+
+    <p>情感共鸣与励志主线：
+     影片的底层逻辑往往围绕“励志”和”改变“的主题展开，通过展现左敬从一开始的影视后期职业转变为私人教练，以及到最后的具备比较有公众视角的一名出色教练<br />
+     在面临挑战、失败、质疑时的坚持与努力，最终达成目标或实现自我超越的过程，激发观众的情感共鸣。
+     这种编排不仅传递了积极向上的价值观<br />
+     也符合大众对于成功故事的心理期待。</p>
+
+    <p>角色塑造与冲突设置：
+     影片通过鲜明的角色塑造，
+     最开始的充满激情，但是，后续又展示了他的改变，从最初的懵懂，通过不断的信心构建，最终成为了一名优秀的教练。
+     前后的对比，让观众更加容易产生共鸣。也是本片的主旨、目的。<br />
+     如教练的坚韧不拔、队员的蜕变成长，以及他们之间的信任建立与冲突解决，构建了故事的核心框架。<br />
+     冲突是推动故事发展的关键，包括内部的自我怀疑与外部环境的压力，这些冲突的设置使得故事更加饱满、引人入胜。</p>
+  </li>
+  <li>
+    <p>内容推进的手段</p>
+
+    <p>叙事结构：采用线性叙事或非线性叙事（如闪回、倒叙）相结合的方式，逐步揭示教练的过去、现在与未来，使观众在时间的流转中感受到人物的成长与变化。</p>
+
+    <p>细节描写与场景转换：通过细腻的描写教练的训练日常、与队员的互动、比赛中的关键时刻等场景，以及巧妙的场景转换，保持观众的注意力并推动情节发展。</p>
+
+    <p>悬念与反转：设置合理的悬念吸引观众持续关注，如教练能否带领队伍赢得比赛、个人生活是否会有转机等。同时，在关键时刻引入反转情节，增加故事的戏剧性和观赏性。</p>
+  </li>
+  <li>
+    <p>影响影片节奏的元素</p>
+
+    <p>音乐与音效：背景音乐和音效是调节影片节奏的重要工具。紧张的训练场景配以激昂的音乐，能增强观众的紧张感；而温馨或励志的桥段则配以柔和或激昂的旋律，引发共鸣。</p>
+
+    <p>剪辑节奏：快速剪辑用于表现比赛或训练的紧张激烈，慢镜头则用于强调关键瞬间或人物情感。通过不同剪辑手法的运用，有效控制影片的节奏感。</p>
+  </li>
+</ol>
+
+<p>镜头语言：运用特写、中景、远景等不同的镜头语言，以及镜头的运动（如推、拉、摇、移等），来引导观众的视线和情绪，进而影响影片的整体节奏。</p>
+
+<ol>
+  <li>
+    <p>内容类型与受众</p>
+
+    <p>内容类型：
+     该片属于励志、体育或人物传记类短片，这类影片通常具有广泛的受众基础，因为它们触及了人性中普遍存在的对成功、挑战和成长的向往。</p>
+
+    <p>受众分析：
+     主要吸引对体育精神、励志故事感兴趣的观众，包括但不限于运动员、教练、体育爱好者、以及寻求心灵鼓舞和正能量的人群。同时，由于故事中的教练角色可能涉及家庭、职业等多重身份，也能触动更广泛年龄段和职业背景的观众。此外，对于喜欢深度剖析人物内心世界和成长历程的观众而言，该片同样具有吸引力。</p>
+  </li>
+</ol>
+
+<p>你认为他是怎么样一个人</p>
+
+<p>受众群体</p>
+
+<p>没什么可说的</p>
+
+<h3 id="思政">思政</h3>
+
+<p>中华优秀传统文化</p>
+
+<p>中华优秀传统文化是中国几千年文明的积淀，涵盖了哲学、伦理、艺术、宗教等多个方面。它不仅是中国人民的文化根基，也是全球文化的重要组成部分。理解中华优秀传统文化</p>
+
+<p>中华优秀传统文化是中华民族的精神瑰宝，其核心价值观如仁爱、重民本、守诚信等，塑造了中国人的行为准则和社会风尚。理解这些传统文化的内涵，有助于我们更好地继承和发扬这些优良传统，并在现代社会中融入这些价值观，推动社会的进步和发展。</p>
+
+<p>文旅</p>
+
+<h2 id="reference">Reference</h2>
+
+<p><a href="https://www.ergengtv.com/">二更视频平台</a></p>
+
+<p><img src="/assets/images/image.png" alt="alt text" /></p>
+
+<p>二更视频平台,杭州二更网络科技有限公司旗下网站，依托二更品牌影响力、内容原创力和渠道整合力,为广大影视创作人、品牌企业等提供集视频内容创作、商业项目对接、IP孵化、影视投资等服务的综合性平台。</p>]]></content><author><name>NoVarYe</name></author><category term="design" /><category term="Video" /><summary type="html"><![CDATA[影视导演 Author: NoVarYe Date: Tue, August 27, 2024 概念介绍 记录片: 现在进行时 真实 客观 展现生活原样, 排斥虚构 摆拍 长镜头或者同期声 主题意识要隐藏 专题片: 现在时、过去式 对社会生活的 一方面进行深入报道，内容集中， 形式多样 多种艺术手段 允许直接阐明观点 介于电视新闻 和 电视艺术, 既有新闻的真实性，又有艺术的审美力 纪录片——《贵州水族马尾绣》赏析 历史背景 制作流程 成本应用 寓意 传承人 未来发展 空镜 视听 马尾绣 不会动，意味着什么 如何动起来 影片难点 静态和听觉的缺陷 采访来弥补历史的缺失，现存物 非物质 文化遗产 人物角度 人物，代表人物 官方 个人 传承人 传承人一般都 在结尾处，出现物质文化遗产 开场30s 包主要对象、事件内容介绍清楚 &lt;/br&gt; 被摄对象存在的难点（“硬伤”）：虽有色彩，但静态试听语言要求 视觉动态，听觉丰富&lt;/br&gt; 留存材料少：过去——现在——未来(传承) &lt;/br&gt; 如何弥补：节庆日 民族特色 欢歌笑语 《贵州水族马尾绣》分析 专题片的结构一般较为严通，整体框架清晰。利用解说词丰富补足画面的不足，同时也作为两 面贯穿的逻依据在底层铺垫。采访像房屋中的梁柱，较规则地支撑起全片，可以看是全片 下每个小段落的核心或篇章主要内昏的发起点。 本片逻想: 宏观描绘引出水族(别:大远景——远景一全景——近景)，起到从宏观风贯到引出具象化人物的作用; 具象化人物出现，先讲解民族特性再引出主要内容马尾绣(中先穿插了节日，以在片子开头调动气纸): 通过采访，进一步深入、全面地讲解马尾绣的历史文化(画面:精美特写，人物动作–此股强酒镜头的叙事功能) 中后程提升本片高度，提出并进一步强调传承(传与承=老人与小孩、以及现在正在开展文化传播的传承人): 尾处，节日民俗与马尾绣穿插，进一步演染民族内通(四面:呼应开头节日场面，马尾铁特 写，大场最和远景出现，结尾) 课程实践——侯官村 纪实类短视频的定义 纪录 纪实 纪录 定义：纪录通常指对某些事件、现象或过程的详细记录。这种记录可以是文字、音频、视频或其他形式的资料。纪录通常强调的是记录过程本身，更多的是关于信息的保存。 用途： 纪录片：以影像的方式记录真实事件或情况，通常带有一定的艺术加工和叙事结构，旨在引发观众的思考或情感共鸣。 个人纪录：例如个人日记、备忘录等，记录个人生活或事件。 纪实 定义：纪实侧重于通过真实的记录来展示和反映现实生活中的事件或人物。它不仅仅是记录的过程，更加关注如何真实、客观地反映实际情况，通常具有较强的现实主义色彩。 用途： 纪实文学：通过详细描写和叙述真实事件和人物，探讨社会问题或人性。 纪实摄影：以摄影的方式捕捉和表现现实生活中的真实瞬间。 区别 侧重点： 纪录更多关注信息的记录和保存。 纪实则注重真实地反映现实生活中的状况，往往带有一定的分析和深度。 表现形式： 纪录可以是多种形式的记录，未必有深层次的解读。 纪实通常强调对真实情况的深刻观察和反映，表现出强烈的现实主义风格。 目标： 纪录的目标是保存信息和数据。 纪实的目标是通过真实的描述和展示来引发观众的思考或感受。 新闻纪实类 赏析《二更 打开折叠人生》 内容编排的底层逻辑 内容推进的手段 情感 新闻素材的处理方式 赏析《天问一号发射成功——火星我们来了》 时间 解说+描述性画面+采访 内容推进的手段: 采用了时间线推进。 通过明确的时间来推进新闻内容，从天文一号发射开始的前12小时，每间隔一段时间，介绍下火箭发射的进程，最后报道了发射成功的结果。这种推进方式使得新闻内容更加清晰 采用了主题推进： 通过介绍技术的进步。在报道过程中，穿插了多项关键技术的突破，如火星制动捕获、进入/下降/着陆、长期自主管理、远距离测控通信、火星表面巡视等，这些技术突破不仅展示了中国深空探测能力的显著提升，也增强了文章的专业性。 3.采用了民众视角： 在报道中，穿插了民众的情感反应，如“我国首次火星探测任务天问一号发射成功，引发了社会各界的热烈关注和祝贺”，“网友纷纷表示，中国航天事业的发展令人振奋，为国家的科技实力感到自豪”，这些民众的情感反应，使得新闻内容更加生动。最后以”火星我们来了“结尾，增强了新闻的情感共鸣。 素材编辑的逻辑： 素材的有效性，真实性： 首先为了保证新闻的有效性，选取了权威的新闻素材。 素材的多样性： 不仅包含了火星探测任务的发射过程，还包含了火星探测任务的技术突破，以及民众的情感反应，使得新闻内容更加丰富。 素材的时效性： 新闻内容的时效性很强，及时报道了火星探测任务的发射成功，增强了新闻的实时性。 时效性与故事性： 时效性： 通过倒计时 该火箭发射的过程， 不存在补拍 视频的框架 采访中的提问： 针对不同的人群采取了不同的问答方式 虽然在报道的过程中，没有记者采访的过程，但是，可以通过报道的内容，推测出记者在采访中可能会提出的问题类型。 问题类型主要分为： 开放式问题 开放式问题旨在引导受访者自由表达想法、感受和经历，不限制答案的范围。 封闭式问题 封闭式问题通常要求受访者从给定的选项中选择答案，或给出简短的肯定/否定回答。 引导式问题 引导式问题通过预设的框架或提示来引导受访者的回答，有助于聚焦讨论。 具体性问题 具体性问题针对具体细节、事件或情境进行提问，有助于获取详细信息。 对于火箭发射过程中的具体细节。大致推测可能会采用具体性问题，如“火箭发射的过程中，有哪些关键技术突破？”，“火星探测任务的发射过程中，有哪些难点？” 追问 追问是在受访者回答后进一步提问，以获取更多信息、澄清观点或深入探讨。 假设性问题 假设性问题让受访者基于某种假设情境给出回答，有助于探索未来趋势、策略或可能性。 提问的节奏： 通过控制提问的节奏，可以引导受访者的回答，使得采访内容更加丰富和有序。 采访1 我是数媒的大四学生，我需要做一个传承数媒精神的片子， 如何，如何做？ 从他嘴里挖出他深受数媒精神的鼓舞，他爱数媒，他会传承数媒精神 发光 发热 你注意，你不但需要这样的话，你还需要一个够激励昂扬的画面 问题的宽泛性 摄像师： 采集 画面 光线 人物的站位 人物的表情 视频的播放的平台 构图 画面的稳定性 记者： 提问 提问的节奏 问题的深度 1 2 3 4 情绪 采访姿态 考虑到被采访人员的情绪 有预演问题，让对方适应状态 为什么选这个专业 为什么回想选着方向 学到了什么 感受 如果你在这条路上，会不会继续传承 采访的目的性 渐进式提问 请问您对数媒的理解是什么？ 您认为数媒精神的核心是什么？ 您认为数媒精神在当今社会中的意义是什么？ 穿插式提问 毕业后的就行 数媒的攻击性比较强 采访2 数媒环境的定性 数媒的发展 氛围是什么 了解到实习的经历 规划， 从中 数媒的理解 鼓励支持 氛围 采访的氛围 就业 信心 鼓励支持， 采访总结 节奏、 看着眼睛、看着表情 赏析《算命》Fortune Teller 徐童 ”我是在极端的宿命和草根当中发现了极端的顽强，这两个东西的碰撞“ 章回体 如何引出故事 如何立起人物 拍摄手法 章节过渡 历百程 石珍珠 赏析《二更 逆袭教练》 内容编排的底层逻辑 内容推进的手段 影响影片节奏的元素 内容类型与受众 拍摄场地 出境人物 场景 拍摄重点 拍摄时长 故事梗概 主旨 内容编排的底层逻辑 情感共鸣与励志主线： 影片的底层逻辑往往围绕“励志”和”改变“的主题展开，通过展现左敬从一开始的影视后期职业转变为私人教练，以及到最后的具备比较有公众视角的一名出色教练 在面临挑战、失败、质疑时的坚持与努力，最终达成目标或实现自我超越的过程，激发观众的情感共鸣。 这种编排不仅传递了积极向上的价值观 也符合大众对于成功故事的心理期待。 角色塑造与冲突设置： 影片通过鲜明的角色塑造， 最开始的充满激情，但是，后续又展示了他的改变，从最初的懵懂，通过不断的信心构建，最终成为了一名优秀的教练。 前后的对比，让观众更加容易产生共鸣。也是本片的主旨、目的。 如教练的坚韧不拔、队员的蜕变成长，以及他们之间的信任建立与冲突解决，构建了故事的核心框架。 冲突是推动故事发展的关键，包括内部的自我怀疑与外部环境的压力，这些冲突的设置使得故事更加饱满、引人入胜。 内容推进的手段 叙事结构：采用线性叙事或非线性叙事（如闪回、倒叙）相结合的方式，逐步揭示教练的过去、现在与未来，使观众在时间的流转中感受到人物的成长与变化。 细节描写与场景转换：通过细腻的描写教练的训练日常、与队员的互动、比赛中的关键时刻等场景，以及巧妙的场景转换，保持观众的注意力并推动情节发展。 悬念与反转：设置合理的悬念吸引观众持续关注，如教练能否带领队伍赢得比赛、个人生活是否会有转机等。同时，在关键时刻引入反转情节，增加故事的戏剧性和观赏性。 影响影片节奏的元素 音乐与音效：背景音乐和音效是调节影片节奏的重要工具。紧张的训练场景配以激昂的音乐，能增强观众的紧张感；而温馨或励志的桥段则配以柔和或激昂的旋律，引发共鸣。 剪辑节奏：快速剪辑用于表现比赛或训练的紧张激烈，慢镜头则用于强调关键瞬间或人物情感。通过不同剪辑手法的运用，有效控制影片的节奏感。 镜头语言：运用特写、中景、远景等不同的镜头语言，以及镜头的运动（如推、拉、摇、移等），来引导观众的视线和情绪，进而影响影片的整体节奏。 内容类型与受众 内容类型： 该片属于励志、体育或人物传记类短片，这类影片通常具有广泛的受众基础，因为它们触及了人性中普遍存在的对成功、挑战和成长的向往。 受众分析： 主要吸引对体育精神、励志故事感兴趣的观众，包括但不限于运动员、教练、体育爱好者、以及寻求心灵鼓舞和正能量的人群。同时，由于故事中的教练角色可能涉及家庭、职业等多重身份，也能触动更广泛年龄段和职业背景的观众。此外，对于喜欢深度剖析人物内心世界和成长历程的观众而言，该片同样具有吸引力。 你认为他是怎么样一个人 受众群体 没什么可说的 思政 中华优秀传统文化 中华优秀传统文化是中国几千年文明的积淀，涵盖了哲学、伦理、艺术、宗教等多个方面。它不仅是中国人民的文化根基，也是全球文化的重要组成部分。理解中华优秀传统文化 中华优秀传统文化是中华民族的精神瑰宝，其核心价值观如仁爱、重民本、守诚信等，塑造了中国人的行为准则和社会风尚。理解这些传统文化的内涵，有助于我们更好地继承和发扬这些优良传统，并在现代社会中融入这些价值观，推动社会的进步和发展。 文旅 Reference 二更视频平台 二更视频平台,杭州二更网络科技有限公司旗下网站，依托二更品牌影响力、内容原创力和渠道整合力,为广大影视创作人、品牌企业等提供集视频内容创作、商业项目对接、IP孵化、影视投资等服务的综合性平台。]]></summary></entry><entry><title type="html">Thinking of Human Machine Interaction</title><link href="https://no4var2ye.github.io/design/hmi/2024/08/26/human-machine-inteaction.html" rel="alternate" type="text/html" title="Thinking of Human Machine Interaction" /><published>2024-08-26T00:00:00+08:00</published><updated>2024-08-26T00:00:00+08:00</updated><id>https://no4var2ye.github.io/design/hmi/2024/08/26/human-machine-inteaction</id><content type="html" xml:base="https://no4var2ye.github.io/design/hmi/2024/08/26/human-machine-inteaction.html"><![CDATA[<h1 id="hmi">HMI</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Author: NoVarYe</td>
+      <td>Date: Mon, August  26, 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>人机界面 (Human Machine Interaction, HMI)</p>
+
+<h2 id="概述">概述</h2>
+
+<p>人机界面（Human Machine Interaction, HMI）是研究人类与机器之间的交互的领域。它不仅包括人与机器之间的互动，还包括机器与机器之间的互动，以及人与人之间的互动。</p>
+
+<h2 id="课程记录">课程记录</h2>
+
+<h3 id="交互设计">交互设计</h3>
+
+<p>交互不仅仅局限于人和机器之间，也可以是机器与机器之间的交互，或是人和人之间的交互。</p>
+
+<h3 id="隐藏在表面之下的逻辑">隐藏在表面之下的逻辑</h3>
+
+<p>UI（用户界面）重在交互，包括输入（Input）和输出（Output）。</p>
+
+<h3 id="指令">指令</h3>
+
+<p>基础指令：如开关指令。
+功能指令：包括单一功能和组合功能。
+组合指令
+着重于电路设计、效率和成本，可能会忽视用户体验。组合按键需要用户记忆，并有一定的学习成本。组合指令可能导致不易使用、难记、难学的问题。</p>
+
+<h3 id="界面">界面</h3>
+
+<p>硬件界面和软件界面。</p>
+
+<p>如何判断软硬件：</p>
+
+<p>观察指令去向
+确定如何调用硬件
+查看哪些硬件可以受到控制
+案例：车载系统的控制器</p>
+
+<p>产生干扰，对主驾驶</p>
+
+<p>指令集的优先级的控制</p>
+
+<p>驾驶的核心功能
+车机系统
+U3D（Unity 3D）</p>
+
+<p>数据的真实性</p>
+
+<h3 id="u3d-的技术考量">U3D 的技术考量</h3>
+
+<p>强制帧同步
+技术路线的不稳定性
+机械面板
+网站界面
+跳转：不要超过三级跳转。
+功能的组合
+界面底层隐藏的逻辑：
+基础功能
+拓展功能</p>
+
+<h3 id="系统的类别">系统的类别</h3>
+
+<p>通用性系统：环境复杂
+专用性系统：系统冗余性低，缓存低</p>
+
+<h3 id="编译器和解释器">编译器和解释器</h3>
+
+<p>信号：模拟电路和数字电路
+通信原理：信号的边界是什么</p>
+
+<h2 id="terms">Terms</h2>
+
+<p>运行环境
+差分：提供选择</p>
+
+<h2 id="thinking">Thinking</h2>
+
+<p>运行效率和学习成本的平衡：</p>
+
+<p>运行效率通常与生产成本相关。
+学习成本受用户群体和用户承载能力的影响。
+先验判断和后验判断：</p>
+
+<p>差额剩余价值。</p>
+
+<h2 id="总结">总结</h2>
+
+<h3 id="如何设计界面">如何设计界面</h3>
+<p>明确指令集：</p>
+
+<p>明确指令的范围和功能
+划分边界，如车门控制、电梯控制
+风险评估
+指令的层级：</p>
+
+<p>环境、基础、拓展（增效）
+结合实际经历
+交互性能：</p>
+
+<p>用户性能（较易解决）
+运行效率（难以触及）</p>
+
+<h3 id="项目组的考量">项目组的考量</h3>
+
+<p>项目组的组成
+项目组的工作
+使用神经网络判定竹子的质量。
+评估上下游。
+划定范围和产业链。
+回本周期：如果使用神经网络提高效率但成本高，则需要评估回本周期。</p>
+
+<h3 id="华为系统">华为系统</h3>
+
+<p>导入U3D模型，先塌缩为三角面，自动解算。</p>
+
+<h2 id="reference">Reference</h2>]]></content><author><name>NoVarYe</name></author><category term="design" /><category term="Design" /><category term="HMI" /><summary type="html"><![CDATA[HMI Author: NoVarYe Date: Mon, August 26, 2024 人机界面 (Human Machine Interaction, HMI) 概述 人机界面（Human Machine Interaction, HMI）是研究人类与机器之间的交互的领域。它不仅包括人与机器之间的互动，还包括机器与机器之间的互动，以及人与人之间的互动。 课程记录 交互设计 交互不仅仅局限于人和机器之间，也可以是机器与机器之间的交互，或是人和人之间的交互。 隐藏在表面之下的逻辑 UI（用户界面）重在交互，包括输入（Input）和输出（Output）。 指令 基础指令：如开关指令。 功能指令：包括单一功能和组合功能。 组合指令 着重于电路设计、效率和成本，可能会忽视用户体验。组合按键需要用户记忆，并有一定的学习成本。组合指令可能导致不易使用、难记、难学的问题。 界面 硬件界面和软件界面。 如何判断软硬件： 观察指令去向 确定如何调用硬件 查看哪些硬件可以受到控制 案例：车载系统的控制器 产生干扰，对主驾驶 指令集的优先级的控制 驾驶的核心功能 车机系统 U3D（Unity 3D） 数据的真实性 U3D 的技术考量 强制帧同步 技术路线的不稳定性 机械面板 网站界面 跳转：不要超过三级跳转。 功能的组合 界面底层隐藏的逻辑： 基础功能 拓展功能 系统的类别 通用性系统：环境复杂 专用性系统：系统冗余性低，缓存低 编译器和解释器 信号：模拟电路和数字电路 通信原理：信号的边界是什么 Terms 运行环境 差分：提供选择 Thinking 运行效率和学习成本的平衡： 运行效率通常与生产成本相关。 学习成本受用户群体和用户承载能力的影响。 先验判断和后验判断： 差额剩余价值。 总结 如何设计界面 明确指令集： 明确指令的范围和功能 划分边界，如车门控制、电梯控制 风险评估 指令的层级： 环境、基础、拓展（增效） 结合实际经历 交互性能： 用户性能（较易解决） 运行效率（难以触及） 项目组的考量 项目组的组成 项目组的工作 使用神经网络判定竹子的质量。 评估上下游。 划定范围和产业链。 回本周期：如果使用神经网络提高效率但成本高，则需要评估回本周期。 华为系统 导入U3D模型，先塌缩为三角面，自动解算。 Reference]]></summary></entry><entry><title type="html">UI Design Specifications</title><link href="https://no4var2ye.github.io/design/2024/08/26/ui-design.html" rel="alternate" type="text/html" title="UI Design Specifications" /><published>2024-08-26T00:00:00+08:00</published><updated>2024-08-26T00:00:00+08:00</updated><id>https://no4var2ye.github.io/design/2024/08/26/ui-design</id><content type="html" xml:base="https://no4var2ye.github.io/design/2024/08/26/ui-design.html"><![CDATA[<h1 id="ui设计规范">UI设计规范</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Author: NoVarYe</td>
+      <td>Date: August 30, 2024</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="ui可用性">UI可用性</h2>
+
+<ol>
+  <li>可见性：字体设置</li>
+  <li>可输入性：输入框和按钮的间距与大小</li>
+  <li>效能：以上二者的效能</li>
+</ol>
+
+<p><strong>加权值</strong>：运行环境的干扰影响</p>
+
+<!--more-->
+
+<h3 id="案例1">案例1</h3>
+
+<p>空调嵌入书开关，和风扇开关的区别</p>
+
+<p>基础指令集</p>
+
+<h2 id="人机界面设计">人机界面设计</h2>
+
+<h3 id="1-设计软件和构建之间的接口">1. 设计软件和构建之间的接口</h3>
+
+<p>界面功能模块的通讯(连接)模块</p>
+
+<p>确保不同界面功能模块之间的有效通信。
+设计数据流动和控制信号传递机制。</p>
+
+<h3 id="2-设计模块和其他非人的信息生产者和消费者的界面">2. 设计模块和其他非人的信息生产者和消费者的界面</h3>
+
+<p>前后端的数据传输设计：</p>
+
+<p>设计如何在前端和后端之间传输数据。
+确保数据传输的准确性和实时性。
+软件或网站后台的控制前端的数据统计：</p>
+
+<p>设计如何从前端收集数据并进行统计分析。
+解析过程的复杂程度和基础分析。</p>
+
+<h3 id="3-设计人和计算机间的界面">3. 设计人和计算机间的界面</h3>
+
+<p>可视化控制面板构建</p>
+
+<p>HUD</p>
+
+<p>用户</p>
+
+<h2 id="terms">Terms</h2>
+
+<p>产能结构崩塌</p>
+
+<h2 id="references">References</h2>]]></content><author><name>NoVarYe</name></author><category term="design" /><category term="Design" /><summary type="html"><![CDATA[UI设计规范 Author: NoVarYe Date: August 30, 2024 UI可用性 可见性：字体设置 可输入性：输入框和按钮的间距与大小 效能：以上二者的效能 加权值：运行环境的干扰影响]]></summary></entry></feed>
